@@ -15,7 +15,7 @@ const Main = () => {
     return (
         <div className="main">
             <div className="quote">
-                <h1 className="q1" data-aos="fade-up" data-aos-delay="250">I am Frederick Go.</h1>
+                <h1 className="q1" data-aos="fade-up" data-aos-delay="250">I'm Frederick Go.</h1>
                 <h1 className="q1" data-aos="fade-up" data-aos-delay="500">I am not 
                     <span data-aos="fade-left" data-aos-delay="700"> a </span> 
                     <span data-aos="fade-left" data-aos-delay="800">p</span> 
