@@ -1,0 +1,34 @@
+
+
+.welcome {
+    background-color: #e3e0cc;
+    height: 100vh;
+}
+
+.welcome-hello {
+    padding-top: 30vh;
+    text-align: center;
+}
+
+.welcome-text {
+    padding-top: 3%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.welcome-continue {
+    padding-top: 3%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.welcome-continue-link {
+    padding-top: 3%;
+    text-align: center;
+}
+
+.welcome-home-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}

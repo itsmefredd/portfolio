@@ -1,0 +1,19 @@
+/* Global Stylesheet */
+
+.App {
+  background-color: #e3e0cc;
+  min-height: 100vh;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.pro {
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+} 
