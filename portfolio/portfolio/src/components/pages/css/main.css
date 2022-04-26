@@ -383,6 +383,16 @@ a {
     margin-bottom: 3rem;
 }
 
+.back-to-life-link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #92a8d1;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    margin-left: 3.5rem;
+}
+
 /* Projects Stylesheet ==============================================================================================*/
 
 /* Room Stylesheet ==================================================================================================*/
