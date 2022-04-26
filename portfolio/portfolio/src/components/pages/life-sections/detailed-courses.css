@@ -1,0 +1,21 @@
+
+
+.DetailedCourses > table > tr {
+    vertical-align: top;
+    
+}
+
+.DetailedCourses > table > tr > td {
+    border: red solid 1px;
+}
+
+.course-code {
+    /* border: red 1px solid; */
+    margin-top: 2rem;
+    width: 10rem;
+}
+
+.DetailedCourses > table > tr > td {
+    
+
+}

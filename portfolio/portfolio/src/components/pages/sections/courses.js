@@ -1,14 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom"
 
 const Courses = () => {
     return(
         <div className="courses">
 
             {/* <h3></h3> */}
-
-
-
-
             <h3 data-aos="fade-up">Some of the Important Courses I've taken at Dalhousie University</h3>
 
             <ul data-aos="fade-up">
@@ -23,6 +20,10 @@ const Courses = () => {
                 <li className='course' data-aos="fade-up">CSCI 3151: Machine Learning</li>
                 <li className='course' data-aos="fade-up">CSCI 3171: Network Computing</li>
             </ul>
+            
+            <div className="detailed-timeline-box">
+                <Link to="/home/life/courses" className="detailed-timeline-link"><span>View More Here</span></Link>
+            </div>
 
         </div>
     )

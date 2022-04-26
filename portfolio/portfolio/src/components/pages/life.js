@@ -10,6 +10,7 @@ import Languages from "./sections/languages.js"
 import Courses from "./sections/courses.js"
 import DetailedTimeline from "./life-sections/detailed-timeline.js"
 import LifeGeneral from "./life-sections/life-general.js";
+import DetailedCourses from "./life-sections/detailed-courses.js"
 
 const Life = () => {
     return (
@@ -22,7 +23,7 @@ const Life = () => {
                         <Route path="/" element={ <LifeGeneral /> }></Route>
                         <Route path="/timeline" element={ <DetailedTimeline/> }></Route>
                         {/* {/* <Route path="/language" element={ <Languages/> }></Route> */}
-                        {/* <Route path="/course" element={ <Courses/> }></Route> */} 
+                        <Route path="/courses" element={ <DetailedCourses/> }></Route> 
                     </Routes>
                 </body>
 
