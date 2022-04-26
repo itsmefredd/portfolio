@@ -15,17 +15,25 @@ const Life = () => {
 
                 {/* Introduction */}
                 <div className="life-section">
-                    <h1 data-aos="fade-up" data-aos-delay="200">Introduction</h1>
-                    <div data-aos="fade-up" data-aos-delay="400">Oh. You decided to stay and read more about me. Well, I should welcome you then. :3 </div>
-                    <div data-aos="fade-up" data-aos-delay="600">I am a sophomore at Dalhousie University studying Computer Science. 
-                        I am planning on pursuing bachelor of computer science along with certificates 
-                        in Artificial Intelligence & Intelligent Systems, and Communication Technologies
-                         & Cyber Security in 2023. </div>
+                    <h1 data-aos="fade-up" data-aos-delay="100">About Me</h1>
+                    <div className="about-me-content">
+                        <div data-aos="fade-up" data-aos-delay="200">
+                            <p>Oh. You decided to stay and read more about me. Well, I should welcome you then. :3</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-delay="300">
+                            <p>I am a sophomore at&nbsp;
+                                <a href="https://www.dal.ca/" target="_blank" rel="noreferrer"><font size="+2" className="text-scale">Dalhousie University</font></a>&nbsp;studying&nbsp;
+                                <a href="https://www.dal.ca/faculty/computerscience.html" target="_blank" rel="noreferrer"><font size="+2" className="text-scale">Computer Science</font></a>.
+                            I am planning on pursuing bachelor of computer science along with certificates in&nbsp;
+                            <font size="+2" className="text-scale">Artificial Intelligence & Intelligent Systems</font>, and&nbsp;
+                            <font size="+2" className="text-scale">Communication Technologies & Cyber Security</font> in 2023.</p>
+                        </div>
+                    </div>
                 </div>
 
                 {/* Timeline */}
                 <div className="life-section">
-                    <h1 data-aos="fade-up" data-aos-delay="800">Timeline</h1>
+                    <h1 data-aos="fade-up" data-aos-delay="400">Timeline</h1>
                     <Timeline/>
                 </div>
 

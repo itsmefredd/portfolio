@@ -41,7 +41,6 @@
     animation-duration: 0.25s;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
-
 }
 
 @keyframes ani {
@@ -185,6 +184,38 @@
     margin-top: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
+}
+
+.about-me-content {
+    padding-top: 3vh;
+}
+.text-scale {
+    text-decoration: none;
+    color: black;
+}
+.text-scale:hover {
+    animation-name: text;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    cursor: grab;
+}
+a {
+    text-decoration: none;
+}
+
+@keyframes text {
+    0% {color: black;}
+    /* 12.5% {color: red;}
+    25% {color: orange;}
+    37.5%{color: yellow;}
+    50%{color: green;}
+    62.5%{color: lightblue;}
+    75%{color: blue;}
+    87.5%{color: lightpink;}
+    100%{color: purple;} */
+    50%{color: salmon;}
+    100%{color: #4040a1;}
 }
 
 /* Selects Timeline component ---------- */
