@@ -116,7 +116,7 @@
     /* max-width:100%;
     max-height:100%; */
     width: 100%;
-        height: 100%;
+    height: 100%;
     object-fit: cover;
     overflow: hidden;
 }
@@ -355,6 +355,33 @@ a {
 .synchrotron-images > img {
     width: 25vw;
 }
+.detailed-timeline-box {
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+}
+.detailed-timeline-link {
+    text-decoration: none;
+    color: black;
+    margin-left: 2vw;
+    padding: 1rem 1rem;
+    border: 0.25rem dotted navy;
+    border-radius: 2rem;
+}
+* {
+    /* border: blue solid 2px */
+}
+.detailed-timeline-heading {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+.detailed-timeline-heading-2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 3rem;
+}
 
 /* Projects Stylesheet ==============================================================================================*/
 
@@ -473,3 +500,5 @@ a {
     text-align: right;
     margin-right: 4vw;
 }
+
+

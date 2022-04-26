@@ -33,7 +33,7 @@ const Home = () => {
             <body className="body">
                 <Routes>
                     <Route path="/" element={ <Main /> }></Route>
-                    <Route path="/life" element={ <Life/> }></Route>
+                    <Route path="/life/*" element={ <Life/> }></Route>
                     <Route path="/projects" element={ <Project/> }></Route>
                     <Route path="/room" element={ <Room/> }></Route>
                     <Route path="/contact" element={ <Contact/> }></Route>

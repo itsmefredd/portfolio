@@ -15,13 +15,13 @@ import btc2 from '../img/btc2.png'
 const Project = () => {
     return (
         <div className="project">
-            <h1 className="first-project" data-aos="fade-up" data-aos-delay="200">My Projects:</h1>
+            <h1 className="first-project" data-aos="fade-up" data-aos-delay="100">My Projects:</h1>
             
             {/* Project #1 */}
 
             <div className='project-list'>
-                <h3 data-aos="fade-up" data-aos-delay="400">Mini Blog Website</h3>
-                <p data-aos="fade-up" data-aos-delay="600">
+                <h3 data-aos="fade-up" data-aos-delay="200">Mini Blog Website</h3>
+                <p data-aos="fade-up" data-aos-delay="300">
                     This was a project of building a blog website. 
                     Users were able to create accounts and log in or out to the website.
                     Once logged in, they were able to post their own blogs, and 
@@ -36,11 +36,11 @@ const Project = () => {
                     design the website, 
                     as well as wrote HTML, CSS, and JS of the main pages. 
                 </p>
-                <div className="synchrotron-images" data-aos="fade-up" data-aos-delay="800">
+                <div className="synchrotron-images" data-aos="fade-up" data-aos-delay="400">
                     <img className="synchrotron-image" src={ Blog1 } ></img>
                     <img className="synchrotron-image" src={ Blog2 } ></img>
                 </div>
-                <p data-aos="fade-up" data-aos-delay="1000">
+                <p data-aos="fade-up" data-aos-delay="500">
                     Some of the technologies used: HTML, CSS, JS, PHP, SQL, and VSCode. 
                 </p>
             </div>
@@ -48,8 +48,8 @@ const Project = () => {
             {/* Project #2 */}
 
             <div className='project-list'>
-                <h3 data-aos="fade-up" data-aos-delay="1200">Synchrotron Project</h3>
-                <p data-aos="fade-up">
+                <h3 data-aos="fade-up" data-aos-delay="600">Synchrotron Project</h3>
+                <p data-aos="fade-up" data-aos-delay="700">
                 Tests on heavy metal concentrations in mussel were performed at the Canadian Light Source with particle accelerator in Saskatoon, Canada. 
                 A member of the team from the beginning of the project with designing project to the end travelling to Saskatoon visiting CLS 
                 in order to perform the tests and presenting for audiences including scientists.

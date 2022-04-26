@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 
 const Timeline = () => {
     return(
@@ -50,6 +51,9 @@ const Timeline = () => {
                     </td>
                 </tr>
             </table>
+            <div className="detailed-timeline-box">
+                <Link to="/home/life/timeline" className="detailed-timeline-link"><span>View More Here</span></Link>
+            </div>
         </div>
     )
 }
