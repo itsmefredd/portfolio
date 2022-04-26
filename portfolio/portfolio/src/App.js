@@ -29,3 +29,11 @@ function App() {
 }
 
 export default App;
+
+
+// To do list
+// 1. Homepage: box links, animating on hover
+// 2. My life page: intro
+// 3. My life page: timeline
+// 4. My life page: languages
+// 5. My life page: courses
