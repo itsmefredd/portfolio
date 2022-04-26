@@ -1,12 +1,14 @@
-
+.DetailedCourses-heading {
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
 
 .DetailedCourses > table > tr {
     vertical-align: top;
-    
 }
 
-.DetailedCourses > table > tr > td {
-    border: red solid 1px;
+.course-desc {
+    padding-bottom: 3rem;
 }
 
 .course-code {
@@ -15,7 +17,12 @@
     width: 10rem;
 }
 
-.DetailedCourses > table > tr > td {
-    
+.back-to-life-link-course{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #92a8d1;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
 
-}
+}    
