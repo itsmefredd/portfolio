@@ -24,17 +24,44 @@
     padding-top: 0rem;
     padding-bottom: 0rem;
     font-family: 'Lora', serif;
-    /* border: red solid 2px; */
 }
+
+.qu1 {
+    animation-name: text;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    cursor: grab;
+    animation-direction: alternate;
+    animation-delay: 1s;
+}
+.qu2{
+    animation-name: text;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    cursor: grab;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+.qu3{
+    animation-name: text;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    cursor: grab;
+    animation-direction: alternate;
+    animation-delay: 3s;
+}
+
+
 .quote > h1 > span > span {
     font-family: 'Lora', serif;
     padding-top: 1rem;
     padding-top: 100/3%;
-    /* border: blue solid 2px; */
-
 }
 
-
+@keyframes disappear {
+    from{color: black;}
+    to{color: transparent;}
+}
 
 .quote > h1 > span > span:hover {
     animation-name: ani;
@@ -65,7 +92,6 @@
     grid-template-rows: repeat(4, 1fr);
     column-gap: 2.5%;
     row-gap: 3%;
-
 
     width: 70vw;
     max-width: 60rem;
@@ -105,16 +131,7 @@
     grid-column: 1/3;
 }
 
-
-
-
-
 /* Links Hover Effect Animation */
-
-/* .home-link > img {
-    border: red solid 10px;
-} */
-
 .home-link > img:hover {
     animation-name: link;
     animation-duration: 1s;
@@ -123,21 +140,9 @@
 }
 
 @keyframes link {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.2);
-    }
+    from {transform: scale(1);}
+    to {transform: scale(1.2);}
 }
-
-
-
-
-
-
-
-
 
 /* Social Media Links: linkedin, github */
 .main-social {
@@ -152,7 +157,6 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-
 
 /* Home Stylesheet ==================================================================================================*/
 
@@ -193,29 +197,41 @@
     text-decoration: none;
     color: black;
 }
-.text-scale:hover {
-    animation-name: text;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-    cursor: grab;
+.text-scale1 {
+    animation-name: text-alt;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1s;
+}
+.text-scale2 {
+    animation-name: text-alt;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+.text-scale3 {
+    animation-name: text-alt;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 3s;
+}
+.text-scale4 {
+    animation-name: text-alt;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 4s;
 }
 a {
     text-decoration: none;
 }
-
-@keyframes text {
+@keyframes text-alt {
     0% {color: black;}
-    /* 12.5% {color: red;}
-    25% {color: orange;}
-    37.5%{color: yellow;}
-    50%{color: green;}
-    62.5%{color: lightblue;}
-    75%{color: blue;}
-    87.5%{color: lightpink;}
-    100%{color: purple;} */
-    50%{color: salmon;}
-    100%{color: #4040a1;}
+    /* 20% {color: salmon;} */
+    100% {color: #c94c4c;}
 }
 
 /* Selects Timeline component ---------- */
@@ -236,7 +252,7 @@ a {
 /* Selects Languages component ---------- */
 .programming-languages-grid {
     border: #b9b0b0 0.5rem solid;
-    padding: 4rem 2rem;
+    padding: 4rem 5rem;
     border-radius: 10rem;
 
     display: grid;
@@ -252,6 +268,8 @@ a {
     grid-auto-columns: 10vh;
 
     text-align: center;    
+
+    overflow-y: hidden;  
 }
 
 /* Selecting each list of tables */
@@ -445,8 +463,6 @@ a {
     align-items: center;
 }
 .waiting-text {
-    /* border: 3px red solid; */
-    /* width: 88%; */
     text-align: center;
 }
 .contact-section-2 {
@@ -454,8 +470,6 @@ a {
 }
 .credit {
     font-size: 0.8rem;
-    /* border: solid red 5px; */
-    /* color: red; */
     text-align: right;
-    margin-right: 2vw;
+    margin-right: 4vw;
 }

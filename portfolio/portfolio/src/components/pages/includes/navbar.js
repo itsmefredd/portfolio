@@ -14,9 +14,6 @@ const Navbar = () => {
                 <Link to="/home/contact" className='home-link'>Contact</Link>
             </div>
             <div className="main-buttoms">
-                <div className="eng-kor">
-                    <button className="change-language">Eng/Kor</button>
-                </div>
                 <div className="dark-mode">
                     <button className="select-dark-mode">Dark Mode</button>
                 </div>

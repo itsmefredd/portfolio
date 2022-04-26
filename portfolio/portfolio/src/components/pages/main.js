@@ -32,22 +32,22 @@ const Main = () => {
     return (
         <div className="main">
             <div className="quote">
-                <h1 className="q1" data-aos="fade-up" data-aos-delay="250">I am Frederick Go.</h1>
-                <h1 className="q1" data-aos="fade-up" data-aos-delay="500">I am not a&nbsp;[
+                <h1 className="q1 qu1" data-aos="fade-up" data-aos-delay="250">I am Frederick Go.</h1>
+                <h1 className="q1 qu2" data-aos="fade-up" data-aos-delay="500">I am not a&nbsp;[
                     <span className="text-ani">
-                        <span data-aos="fade-left" data-aos-delay="800">p</span> 
-                        <span data-aos="fade-up" data-aos-delay="900">r</span> 
-                        <span data-aos="fade-up" data-aos-delay="1000">o</span> 
-                        <span data-aos="fade-up" data-aos-delay="1100">g</span> 
-                        <span data-aos="fade-up" data-aos-delay="1200">r</span> 
-                        <span data-aos="fade-up" data-aos-delay="1300">a</span> 
-                        <span data-aos="fade-up" data-aos-delay="1400">m</span> 
-                        <span data-aos="fade-up" data-aos-delay="1500">m</span> 
-                        <span data-aos="fade-up" data-aos-delay="1600">e</span> 
-                        <span data-aos="fade-up" data-aos-delay="1700">r</span> 
+                        <span data-aos="fade-left" data-aos-delay="800" className="delay-1">p</span> 
+                        <span data-aos="fade-up" data-aos-delay="900" className="delay-2">r</span> 
+                        <span data-aos="fade-up" data-aos-delay="1000" className="delay-3">o</span> 
+                        <span data-aos="fade-up" data-aos-delay="1100" className="delay-4">g</span> 
+                        <span data-aos="fade-up" data-aos-delay="1200" className="delay-5">r</span> 
+                        <span data-aos="fade-up" data-aos-delay="1300" className="delay-6">a</span> 
+                        <span data-aos="fade-up" data-aos-delay="1400" className="delay-7">m</span> 
+                        <span data-aos="fade-up" data-aos-delay="1500" className="delay-8">m</span> 
+                        <span data-aos="fade-up" data-aos-delay="1600" className="delay-9">e</span> 
+                        <span data-aos="fade-up" data-aos-delay="1700" className="delay-10">r</span> 
                     </span>
                 ].</h1>
-                <h1 className="q1" data-aos="fade-up" data-aos-delay="750">I am a&nbsp;[
+                <h1 className="q1 qu3" data-aos="fade-up" data-aos-delay="750">I am a&nbsp;[
                     <span className="text-ani">
                         <span data-aos="fade-up" data-aos-delay="1900">p</span>
                         <span data-aos="fade-up" data-aos-delay="1800">r</span>
