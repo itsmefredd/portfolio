@@ -1,6 +1,6 @@
 // Importing libraries
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { Routes, Route } from "react-router-dom"
 import Scroll from  "./includes/scroll.js"
 
 // Main pages Stylesheet
@@ -14,6 +14,7 @@ import Life from "./life.js";
 import Room from "./room.js";
 import Contact from "./contact.js"
 import Project from "./project.js";
+import NotFound from "./notfound.js"
 
 // Main content function
 const Home = () => {
@@ -37,6 +38,7 @@ const Home = () => {
                     <Route path="/projects" element={ <Project/> }></Route>
                     <Route path="/room" element={ <Room/> }></Route>
                     <Route path="/contact" element={ <Contact/> }></Route>
+                    <Route path="*" element={ <NotFound/> }></Route>
                 </Routes>
             </body>
             

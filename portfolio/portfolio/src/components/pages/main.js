@@ -1,21 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import { Link } from "react-router-dom";
-import { useEffect } from 'react';
-import { withRouter } from 'react-router-dom';
-
-import Navbar from "./includes/navbar";
-import Footer from "./includes/footer";
-
-import Timeline from "../img/timeline.jpg"
-import Saxophone from "../img/saxphonedog.gif" // https://televandalist.com/post/61805013732
-import Contacting from "../img/contacting.gif" // https://instagram.com/dot_pieces
-import Uni from "../img/uni.gif" // https://www.instagram.com/slothilda/
-import hobby from "../img/hobby.gif" // https://www.instagram.com/LoofandTimmy/
-import Time from "../img/timeline.gif" // https://www.disneyplus.com/franchise/the-simpsons
-import Edu from "../img/edu.gif" // https://instagram.com/kyocera_usa
-import Whoami from "../img/whoami.gif" //https://instagram.com/bravestwarriors
-import Pro from "../img/pro.gif" // https://www.instagram.com/poketo/
 
 import DayTimeline from "../img/Day - Timeline.png"
 import DayEducation from "../img/Day - Education.png"
@@ -67,53 +51,50 @@ const Main = () => {
             </div>
             <div className="main-links" data-aos="fade-up" data-aos-delay="1000">
                 <div className="main-link">
-                    <Link to="/home/life" className="home-link">
-                        <img src={ DayTimeline }></img>
+                    <Link to="/home/life/timeline" className="home-link">
+                        <img src={ DayTimeline } alt="timeline"></img>
                     </Link>
                 </div>
                 <div className="main-link link-2 main-2">
-                    <Link to="/home" className='home-link '>
-                        <img src={ DayEducation }></img>
+                    <Link to="/home/life/courses" className='home-link '>
+                        <img src={ DayEducation } alt="education"></img>
                     </Link>
                 </div>
                 <div className="main-link">
-                    <Link to="/home" className='home-link'>
-                        <img src={ DayAbout }></img>
+                    <Link to="/home/life" className='home-link'>
+                        <img src={ DayAbout } alt="about"></img>
                     </Link>
                 </div>
                 <div className="main-link">
-                    <Link to="/home" className='home-link'>
-                        <img src={ DayProject }></img>
+                    <Link to="/home/projects" className='home-link'>
+                        <img src={ DayProject } alt="project"></img>
                     </Link>
                 </div>
                 <div className="main-link">
-                    <Link to="/home" className='home-link'>
-                        <img src={ DayMusic }></img>
+                    <Link to="/home/room/music" className='home-link'>
+                        <img src={ DayMusic } alt="music"></img>
                     </Link>
                 </div>
                 <div className="main-link">
-                    <Link to="/home" className='home-link '>
-                        <img src={ DayProgram }></img>
+                    <Link to="/home/life/programming" className='home-link '>
+                        <img src={ DayProgram } alt="programming"></img>
                     </Link>
                 </div>
                 <div className="main-link" >
-                    <Link to="/home" className='home-link'>
-                        <img src={ DayArts }></img>
+                    <Link to="/home/room" className='home-link'>
+                        <img src={ DayArts } alt="arts"></img>
                     </Link>
                 </div>
                 <div className="main-link" >
-                    <Link to="/home" className='home-link'>
-                        <img src={ DayContact } className=""></img>
+                    <Link to="/home/contact" className='home-link'>
+                        <img src={ DayContact } alt="contact"></img>
                     </Link>
                 </div>
             </div>
             <div className="main-social">
-                <a className="social" data-aos="fade-up">Linkedin</a>
-                <a className="social" data-aos="fade-up">Github</a>
-            </div>
-
-
-            
+                <a className="social" data-aos="fade-up" href="google.com">Linkedin</a>
+                <a className="social" data-aos="fade-up" href="google.com">Github</a>
+            </div>            
         </div>
     )
 };

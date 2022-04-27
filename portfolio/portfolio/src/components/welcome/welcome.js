@@ -1,11 +1,8 @@
-// Importing libraries
 import React from "react";
 import { Link } from "react-router-dom";
 
-// Welcome page Stylesheet
 import './welcome.css'
 
-// Welcome Content Function
 const Welcome = () => {
     return (
         <div className="welcome">

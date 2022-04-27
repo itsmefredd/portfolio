@@ -367,9 +367,6 @@ a {
     border: 0.25rem dotted navy;
     border-radius: 2rem;
 }
-* {
-    /* border: blue solid 2px */
-}
 .detailed-timeline-heading {
     text-align: center;
     margin-top: 1rem;
@@ -470,7 +467,6 @@ a {
     margin-left: 15%;
     padding-top: 15vh;
     padding-bottom: 5vh;
-    /* border: red solid 5px */
     display: flex;
     flex-direction: row;
 }
@@ -512,3 +508,10 @@ a {
 }
 
 
+
+
+.not-found {
+    border: salmon 5px solid;
+    height: 20rem;
+    width: 20rem;
+}

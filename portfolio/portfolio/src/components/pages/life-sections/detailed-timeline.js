@@ -2,11 +2,6 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import { Link } from "react-router-dom"
 import 'react-vertical-timeline-component/style.min.css';
 
-import Icon from "../../img/favicon.ico"
-
-// Importing CSS Files
-// Importing JS Files
-
 // Returning Function
 function DetailedTimeline() {
   return (

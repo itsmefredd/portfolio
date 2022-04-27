@@ -1,9 +1,4 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import { Link } from "react-router-dom";
-
-import Navbar from "./includes/navbar";
-import Footer from "./includes/footer";
 
 import Blog1 from '../img/blog1.png'
 import Blog2 from '../img/blog2.png'
@@ -37,8 +32,8 @@ const Project = () => {
                     as well as wrote HTML, CSS, and JS of the main pages. 
                 </p>
                 <div className="synchrotron-images" data-aos="fade-up" data-aos-delay="400">
-                    <img className="synchrotron-image" src={ Blog1 } ></img>
-                    <img className="synchrotron-image" src={ Blog2 } ></img>
+                    <img className="synchrotron-image" src={ Blog1 } alt="blog1"></img>
+                    <img className="synchrotron-image" src={ Blog2 } alt="blog2"></img>
                 </div>
                 <p data-aos="fade-up" data-aos-delay="500">
                     Some of the technologies used: HTML, CSS, JS, PHP, SQL, and VSCode. 
@@ -55,8 +50,8 @@ const Project = () => {
                 in order to perform the tests and presenting for audiences including scientists.
                 </p>
                 <div className="synchrotron-images" data-aos="fade-up">
-                    <img className="synchrotron-image synchrotron1" src={ Synchrotron1 } ></img>
-                    <img className="synchrotron-image synchrotron2" src={ Synchrotron2 } ></img>
+                    <img className="synchrotron-image synchrotron1" src={ Synchrotron1 } alt="synchrotron1"></img>
+                    <img className="synchrotron-image synchrotron2" src={ Synchrotron2 } alt="synchrotron2"></img>
                 </div>
                 <p data-aos="fade-up">
                     Some of the technologies used: MS excel and BioXAS imaging. 
@@ -77,15 +72,13 @@ const Project = () => {
                 models with different features such as history price, RSI chart, candles, bollinger bands and many more. 
                 </p>
                 <div className="synchrotron-images" data-aos="fade-up">
-                    <img className="synchrotron-image synchrotron1" src={ btc1 } ></img>
-                    <img className="synchrotron-image synchrotron2" src={ btc2 } ></img>
+                    <img className="synchrotron-image synchrotron1" src={ btc1 } alt="btc1"></img>
+                    <img className="synchrotron-image synchrotron2" src={ btc2 } alt="btc2"></img>
                 </div>
                 <p data-aos="fade-up">
                     Some of the technologies used: Binance API, Python, Jupiter Notebook, Sckit-Learn, and Itellij. 
                 </p>
             </div>
-
-
 
             <h1 data-aos="fade-up">Future Projects That Are Coming Soon:</h1>
 

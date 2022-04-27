@@ -1,14 +1,8 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import { Link } from "react-router-dom";
-
-import Navbar from "./includes/navbar";
-import Footer from "./includes/footer";
 
 import Band1 from "./../img/Band1.png"
 import Band2 from "./../img/Band2.jpeg"
 import Band3 from "./../img/Band3.jpeg"
-import Band4 from "./../img/Band4.jpeg"
 
 import Tennis from "./../img/Tennis1.png"
 
@@ -36,10 +30,9 @@ const Room = () => {
                     That is when I played all 4 woodwinds, which was not easy. 
                     </div>
                     <dic className="music-images" data-aos="fade-up" data-aos-delay="1000">
-                        <img src={ Band1 } className="band-image band3"></img>
-                        <img src={ Band2 } className="band-image band2"></img>
-                        <img src={ Band3 } className="band-image band1"></img>
-                        {/* <img src={ Band4 } className="band-image"></img> */}
+                        <img src={ Band1 } className="band-image band3" alt="band1"></img>
+                        <img src={ Band2 } className="band-image band2" alt="band2"></img>
+                        <img src={ Band3 } className="band-image band1" alt="band3"></img>
                     </dic>
                     <div data-aos="fade-up">
                     Other than those, I play the ukulele and the guitar. 
@@ -61,7 +54,7 @@ const Room = () => {
                         provincial competitions. 
                     </div>
                     <div className="tennis-image" data-aos="fade-up">
-                        <img src={ Tennis } className="tennis-image-img"></img>
+                        <img src={ Tennis } className="tennis-image-img" alt="tennis-team"></img>
                     </div>
                 </div>
             </div>
@@ -78,16 +71,8 @@ const Room = () => {
                             <li>- Blockchain Technologies</li>
                         </ul>
                     </div>
-                    {/* <div className="tech-image" data-aos="fade-up">
-                        <img src={ Tennis } className="tech-image-img"></img>
-                    </div> */}
                 </div>
             </div>
-
-            {/* <div className="room-section">
-                <h2 className="room-section-one">Rubik's Cubes</h2>
-            </div> */}
-
         </div>
     )
 };

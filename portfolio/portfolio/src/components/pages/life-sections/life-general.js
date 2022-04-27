@@ -1,10 +1,6 @@
-// Importing Libraries
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-
 import Timeline from "../sections/timeline"
 import Languages from "../sections/languages.js"
 import Courses from "../sections/courses.js"
-
 
 // Returning Function
 function lifeGeneral() {

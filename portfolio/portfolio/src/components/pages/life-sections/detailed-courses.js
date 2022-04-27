@@ -1,8 +1,5 @@
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import { Link } from "react-router-dom"
 import 'react-vertical-timeline-component/style.min.css';
-
-import Icon from "../../img/favicon.ico"
 
 // Importing CSS Files
 import "./detailed-courses.css"
