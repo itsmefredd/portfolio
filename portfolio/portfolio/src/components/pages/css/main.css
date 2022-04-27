@@ -227,6 +227,7 @@
 }
 a {
     text-decoration: none;
+    color: black;
 }
 @keyframes text-alt {
     0% {color: black;}
@@ -514,4 +515,41 @@ a {
     border: salmon 5px solid;
     height: 20rem;
     width: 20rem;
+}
+
+
+
+
+
+
+
+.body {
+    /* height: 200rem; */
+}
+.lights {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: solid blue 3px;
+}
+
+
+.light-image {
+    position: absolute;
+}
+.light-head {
+    height: 5%;
+    width: 10%;
+    top: 10%;
+}
+.light-body {
+    top: 15%;
+    height: 90%;
+    width: 10%;
+    /* overflow-y: hidden; */
+}
+.light-foot {
+    height: 5%;
+    width: 10%;
+    top: 105%;
 }

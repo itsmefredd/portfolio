@@ -7,14 +7,14 @@ import Home from "./components/pages/home"
 
 function App() {
   return (
-    <div className="App">
-      <Router className="app">
-        <Routes>
-          <Route path="/" element={ <Welcome/> }></Route>
-          <Route path="/home/*" element={ <Home/> }></Route>
-        </Routes>
-      </Router>
-    </div>
+      <div className="App">
+        <Router className="app">
+          <Routes>
+            <Route path="/" element={ <Welcome/> }></Route>
+            <Route path="/home/*" element={ <Home/> }></Route>
+          </Routes>
+        </Router>
+      </div>
   )
 }
 
