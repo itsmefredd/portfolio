@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
 
-import NotFound404 from "./../img/notfound.gif"
 import Hello from "./../img/waiting.gif"
 
 const NotFound = () => {
