@@ -49,6 +49,9 @@ export const GlobalStyle = createGlobalStyle`
   .vertical-timeline-element--work > * > * {
     color: black;
   }
+  .vertical-timeline-element-date {
+    color: ${props => props.theme.fontColor};
+  }
 
   @keyframes text-alt {
     0% {color: ${props => props.theme.fontColor};}
