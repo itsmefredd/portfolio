@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import DayTimeline from "../img/Day - Timeline.png"
-import DayEducation from "../img/Day - Education.png"
-import DayMusic from "../img/Day - Music.png"
-import DayProject from "../img/Day - Projects.png"
-import DayContact from "../img/Day - Contact.png"
-import DayAbout from "../img/Day - About.png"
-import DayArts from "../img/Day - Room.png"
-import DayProgram from "../img/Day - Program.png"
+import DayTimeline from "../img/Day - Timeline.jpg"
+import DayEducation from "../img/Day - Education.avif"
+import DayMusic from "../img/Day - Music.avif"
+import DayProject from "../img/Day - Project.jpg"
+import DayContact from "../img/Day - Contact.avif"
+import DayAbout from "../img/Day - About.jpeg"
+import DayArts from "../img/Day - Room.avif"
+import DayProgram from "../img/Day - Program.avif"
 
 import "./includes/scroll.js"
 
@@ -50,46 +50,55 @@ const Main = () => {
                 ].</h1>
             </div>
             <div className="main-links" data-aos="fade-up" data-aos-delay="1000">
-                <div className="main-link">
-                    <Link to="/home/life/timeline" className="home-link">
-                        <img src={ DayTimeline } alt="timeline"></img>
-                    </Link>
-                </div>
-                <div className="main-link link-2 main-2">
-                    <Link to="/home/life/courses" className='home-link '>
-                        <img src={ DayEducation } alt="education"></img>
-                    </Link>
-                </div>
-                <div className="main-link">
-                    <Link to="/home/life" className='home-link'>
-                        <img src={ DayAbout } alt="about"></img>
-                    </Link>
-                </div>
-                <div className="main-link">
-                    <Link to="/home/projects" className='home-link'>
-                        <img src={ DayProject } alt="project"></img>
-                    </Link>
-                </div>
-                <div className="main-link">
-                    <Link to="/home/room/music" className='home-link'>
-                        <img src={ DayMusic } alt="music"></img>
-                    </Link>
-                </div>
-                <div className="main-link">
-                    <Link to="/home/life/programming" className='home-link '>
-                        <img src={ DayProgram } alt="programming"></img>
-                    </Link>
-                </div>
-                <div className="main-link" >
-                    <Link to="/home/room" className='home-link'>
-                        <img src={ DayArts } alt="arts"></img>
-                    </Link>
-                </div>
-                <div className="main-link" >
-                    <Link to="/home/contact" className='home-link'>
-                        <img src={ DayContact } alt="contact"></img>
-                    </Link>
-                </div>
+                <Link to="/home/life/timeline" className="first-link">
+                    <img src={ DayTimeline } alt="timeline"></img>
+                    <div className="text-over-image text-over-image-b">
+                        <h2>Timeline</h2>
+                    </div> 
+                </Link>
+                <Link to="/home/life/courses" className='first-link '>
+                    <img src={ DayEducation } alt="education"></img>
+                    <div className="text-over-image text-over-image-b">
+                        <h2>Education</h2>
+                    </div>                    
+                </Link>
+                <Link to="/home/life" className='first-link first-link-3'>
+                    <img src={ DayAbout } alt="about"></img>
+                    <div className="text-over-image text-over-image-b">
+                        <h2>About Me</h2>
+                    </div> 
+                </Link>
+                <Link to="/home/projects" className='first-link first-link-4'>
+                    <img src={ DayProject } alt="project"></img>
+                    <div className="text-over-image text-over-image-b">
+                        <h2>Projects</h2>
+                    </div> 
+                </Link>
+                <Link to="/home/room/music" className='first-link'>
+                    <img src={ DayMusic } alt="music"></img>
+                    <div className="text-over-image text-over-image-b">
+                        <h2>Music</h2>
+                    </div> 
+                </Link>
+                <Link to="/home/life/programming" className='first-link '>
+                    <img src={ DayProgram } alt="programming"></img>
+                    <div className="text-over-image text-over-image-b">
+                        <h2>Programming</h2>
+                        <h2>Skills</h2>
+                    </div> 
+                </Link>
+                <Link to="/home/room" className='first-link'>
+                    <img src={ DayArts } alt="arts"></img>
+                    <div className="text-over-image text-over-image-b">
+                        <h2>My Room</h2>
+                    </div> 
+                </Link>
+                <Link to="/home/contact" className='first-link'>
+                    <img src={ DayContact } alt="contact"></img>
+                    <div className="text-over-image text-over-image-b">
+                        <h2>Contact</h2>
+                    </div> 
+                </Link>
             </div>
             <div className="main-social">
                 <a className="social" data-aos="fade-up" href="google.com">Linkedin</a>

@@ -109,39 +109,70 @@
     object-fit: cover;
     overflow: hidden;
 }
-.home-link > img {
-    margin-left: -1vw;
-    /* width: 150%;
-    height: 150%; */
-    /* max-width:100%;
-    max-height:100%; */
+
+.first-link {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+.main-2 {
+    /* border: 2px solid red; */
+}
+
+.first-link > img {
+    /* margin-left: -1vw; */
     width: 100%;
     height: 100%;
     object-fit: cover;
     overflow: hidden;
+    display: block;
+}
+
+.text-over-image {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.text-over-image-b {
+    backdrop-filter: blur(5px);
+}
+
+.text-over-image:hover {
+    opacity: 1;
+}
+
+.text-over-image > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.text-over-image:hover > * {
+    transform: translateY(0px);
+}
+
+.text-over-image > h2 {
+    color: white;
 }
 
 /* Selects indivisual box */
-.main-link:nth-child(3){
+.first-link-3{
     grid-row: 1/3;
     grid-column: 3/5;
 }
-.main-link:nth-child(4){
+.first-link-4{
     grid-row: 2/5;
     grid-column: 1/3;
-}
-
-/* Links Hover Effect Animation */
-.home-link > img:hover {
-    animation-name: link;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
-@keyframes link {
-    from {transform: scale(1);}
-    to {transform: scale(1.2);}
 }
 
 /* Social Media Links: linkedin, github */
@@ -195,7 +226,7 @@
 }
 .text-scale {
     text-decoration: none;
-    color: black;
+    /* color: black; */
 }
 .text-scale1 {
     animation-name: text-alt;
@@ -552,4 +583,7 @@ a {
     height: 5%;
     width: 10%;
     top: 105%;
+}
+.vertical-timeline-element--work > * {
+    color: red;
 }
