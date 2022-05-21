@@ -20,7 +20,7 @@ function DetailedTimeline() {
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: '#d6cbd3', color: 'black' }}
                 contentArrowStyle={{ borderRight: '7px solid  #d6cbd3' }}
-                date="2002"
+                date="2002 March"
                 iconStyle={{ background: '#d6cbd3', color: '#fff' }}
             >
                 <h3 className="vertical-timeline-element-title">Life Started</h3>

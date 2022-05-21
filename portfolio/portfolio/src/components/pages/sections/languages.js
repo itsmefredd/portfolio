@@ -16,6 +16,7 @@ const languages = () => {
                             <li data-aos="fade-up" data-aos-delay="800">CSS</li>
                             <li data-aos="fade-up" data-aos-delay="850">JavaScript/JSX</li>
                             <li data-aos="fade-up" data-aos-delay="900">PHP</li>
+                            <li data-aos="fade-up" data-aos-delay="950">R</li>
                         </ul>
                     </div>
                 </div>
@@ -23,7 +24,7 @@ const languages = () => {
                 <div className='programming-language-list-2'>
                     <div>
                         <ul><span data-aos="fade-up" data-aos-delay="400">IDEs</span>
-                            <li data-aos="fade-up" data-aos-delay="700">Itellij</li>
+                            <li data-aos="fade-up" data-aos-delay="700">Itellij | CLion</li>
                             <li data-aos="fade-up" data-aos-delay="750">VSCode</li>
                             <li data-aos="fade-up" data-aos-delay="800">Jupiter Notebook</li>
                             <li data-aos="fade-up" data-aos-delay="850">Vim if that counts ;)</li>
@@ -44,8 +45,8 @@ const languages = () => {
                         <ul><p></p><span data-aos="fade-up" data-aos-delay="600">Others</span>
                             <li data-aos="fade-up" data-aos-delay="900">React</li>
                             <li data-aos="fade-up" data-aos-delay="950">NodeJS</li>
-                            <li data-aos="fade-up" data-aos-delay="1000">Git</li>
-                            <li data-aos="fade-up" data-aos-delay="1050">Github</li>
+                            <li data-aos="fade-up" data-aos-delay="1000">GitLab | Github</li>
+                            <li data-aos="fade-up" data-aos-delay="1050">RStudio</li>
                         </ul>
                     </div>
                 </div>
