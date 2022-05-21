@@ -14,6 +14,46 @@ function DetailedCourses() {
             <Link to="/home/life" className='back-to-life-link-course'>Back</Link>
         </div>
 
+        <h1 className='DetailedCourses-heading' data-aos="fade-up" data-aos-delay="200">Current Courses @ Dalhousie / Summer 2022</h1>
+
+        <table className='courses'>
+            <tr data-aos="fade-up" data-aos-delay="300" className='course'>
+                <td className='course-code'>CSCI 3110</td>
+                <td className='course-desc'>
+                    <p>Algorithms I</p>
+                    <p>This course covers techniques for the design and analysis of efficient algorithms and data structures. Topics include asymptotic analysis, divide and conquer algorithms, greedy algorithms, dynamic programming, data structure design, optimization algorithms, and amortized analysis. The techniques are applied to problems such as sorting, searching, identifying graph structure, and manipulating sets.</p>
+                </td>
+            </tr>
+            <tr data-aos="fade-up" data-aos-delay="300" className='course'>
+                <td className='course-code'>CSCI 3120</td>
+                <td className='course-desc'>
+                    <p>Operating Systems</p>
+                    <p>This course includes a review of I/O and interrupt structures. Topics covered include dynamic procedure activation, system structure and evaluation, memory management, process management, process scheduling, recovery procedures, concurrency, deadlocks, resource allocation, protection, and operating systems implementation.</p>
+                </td>
+            </tr>
+            <tr data-aos="fade-up" data-aos-delay="300" className='course'>
+                <td className='course-code'>CSCI 3130</td>
+                <td className='course-desc'>
+                    <p>Software Engineering</p>
+                    <p>The course examines the process of software development, from initial planning through implementation and maintenance. A brief survey of available tools and techniques will be presented covering the topics of analysis, planning, estimating, project management, design, testing, and evaluation. Particular emphasis will be given to organizing and planning, team participation and management, top-down design and structure charts, system and information flow diagrams, walk-throughs and peer review, and testing and quality control.</p>
+                </td>
+            </tr>
+            <tr data-aos="fade-up" data-aos-delay="300" className='course'>
+                <td className='course-code'>STAT 2080</td>
+                <td className='course-desc'>
+                    <p>Introduction to Data Mining in R</p>
+                    <p>This course provided as introduction to data mining and R programming, suited for science students. Data mining methods include a vast set of tools developed in different areas for identifying the patterns in data. Students will learn programming methods for manipulating and exploring data through learning the basic ideas of some clustering, regression and classification methods. No prior programming knowledge is assumed.</p>
+                </td>
+            </tr>
+            <tr data-aos="fade-up" data-aos-delay="300" className='course'>
+                <td className='course-code'>STAT 2450</td>
+                <td className='course-desc'>
+                    <p>Statistical Methods for Data Analysis and Inference</p>
+                    <p>This course introduces a number of techniques for data analysis and inference commonly used in the experimental sciences. Topics covered include two-sample inference one-way and two-way analysis of variance, correlation, linear regression, and the analysis of categorical and count data. A natural sequel for this course is STAT 3340.03.</p>
+                </td>
+            </tr>
+        </table>
+
         <h1 className='DetailedCourses-heading' data-aos="fade-up" data-aos-delay="200">Detailed Version of Courses I Have Taken @ Dalhousie University</h1>
 
         <table className='courses'>

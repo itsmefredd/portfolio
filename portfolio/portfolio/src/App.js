@@ -19,3 +19,17 @@ function App() {
 }
 
 export default App;
+
+
+/**
+ * Session - maintaining dark mode on refresh
+ * 404 Not found error page styling
+ * Project page detail
+ * My room page detail
+ * Links to linkedin and github
+ * Music page
+ * Programming skill page
+ * Dark mode button styling
+ * Mobile view
+ * Korean version
+ */

@@ -6,6 +6,7 @@ import Synchrotron1 from '../img/synchrotron1.png'
 import Synchrotron2 from '../img/synchrotron2.png' 
 import btc1 from '../img/btc1.png' 
 import btc2 from '../img/btc2.png' 
+import port1 from '../img/Portfolio-Project1.png' 
 
 const Project = () => {
     return (
@@ -78,23 +79,28 @@ const Project = () => {
                 <p data-aos="fade-up">
                     Some of the technologies used: Binance API, Python, Jupiter Notebook, Sckit-Learn, and Itellij. 
                 </p>
+            </div>port1
+
+            <div className='project-list'>
+                <h3 data-aos="fade-up">Cryptocurrency Price Predicting Model</h3>
+                <p data-aos="fade-up">
+                I am working on a model that will receive information about a certain cryptocurrency via Binance API 
+                and predict its price in a chosen time period. I am applying some of machine learning concepts from
+                a class I took at Dalhousie University on machine learning. I am experimenting by testing and fitting 
+                models with different features such as history price, RSI chart, candles, bollinger bands and many more. 
+                </p>
+                <div className="synchrotron-images" data-aos="fade-up">
+                    <img className="synchrotron-image synchrotron1" src={ port1 } alt="btc1"></img>
+                    <img className="synchrotron-image synchrotron2" src={ port1 } alt="btc2"></img>
+                </div>
+                <p data-aos="fade-up">
+                    Some of the technologies used: Binance API, Python, Jupiter Notebook, Sckit-Learn, and Itellij. 
+                </p>
             </div>
 
             <h1 data-aos="fade-up">Future Projects That Are Coming Soon:</h1>
 
             {/* Future Project #1 */}
-
-            <div className='project-list'>
-                <h3 data-aos="fade-up">CSCI 2169: Introductory Project </h3>
-                <p data-aos="fade-up">
-                Students take junior roles in project teams to solve a real-world information technology problem. 
-                Team members are drawn from all years of study. 
-                The project gives students an opportunity to develop their technical, management, and professional skills.
-                </p>
-                <p data-aos="fade-up">
-                    Some of the technologies used: NA. 
-                </p>
-            </div>
 
             {/* Future Project #2 */}
 

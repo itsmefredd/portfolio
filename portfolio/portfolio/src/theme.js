@@ -2,13 +2,15 @@ import { createGlobalStyle } from "styled-components";
 
 export const lightTheme = {
     body: "#f0efef",
-    fontColor: "#000"
+    fontColor: "#000",
+    keyWordFunction: "text-alt"
 };
 
 export const darkTheme = {
     body: "#212529",
     fontColor: "#C0C0C0",
-    keyWordColor: "#E5A5FF"
+    keyWordColor: "#E5A5FF",
+    keyWordFunction: "text-alt-dark"
 };
 
 export const GlobalStyle = createGlobalStyle`
@@ -53,9 +55,37 @@ export const GlobalStyle = createGlobalStyle`
     color: ${props => props.theme.fontColor};
   }
 
-  @keyframes text-alt {
+  .text-scale1 {
+    animation-name: ${props => props.theme.keyWordFunction};
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1s;
+}
+.text-scale2 {
+  animation-name: ${props => props.theme.keyWordFunction};
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+.text-scale3 {
+    animation-name: ${props => props.theme.keyWordFunction};
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 3s;
+  }
+  .text-scale4 {
+    animation-name: ${props => props.theme.keyWordFunction};
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 4s;
+  }
+  @keyframes text-alt-dark {
     0% {color: ${props => props.theme.fontColor};}
-    100% {color: ${props => props.theme.keyWordColor};}
+    100% {color: #E5A5FF;}
   }
 
 `
