@@ -79,22 +79,17 @@ const Project = () => {
                 <p data-aos="fade-up">
                     Some of the technologies used: Binance API, Python, Jupiter Notebook, Sckit-Learn, and Itellij. 
                 </p>
-            </div>port1
+            </div>
 
             <div className='project-list'>
-                <h3 data-aos="fade-up">Cryptocurrency Price Predicting Model</h3>
-                <p data-aos="fade-up">
-                I am working on a model that will receive information about a certain cryptocurrency via Binance API 
-                and predict its price in a chosen time period. I am applying some of machine learning concepts from
-                a class I took at Dalhousie University on machine learning. I am experimenting by testing and fitting 
-                models with different features such as history price, RSI chart, candles, bollinger bands and many more. 
-                </p>
+                <h3 data-aos="fade-up">Portfolio Website</h3>
+                
                 <div className="synchrotron-images" data-aos="fade-up">
                     <img className="synchrotron-image synchrotron1" src={ port1 } alt="btc1"></img>
                     <img className="synchrotron-image synchrotron2" src={ port1 } alt="btc2"></img>
                 </div>
                 <p data-aos="fade-up">
-                    Some of the technologies used: Binance API, Python, Jupiter Notebook, Sckit-Learn, and Itellij. 
+                    React
                 </p>
             </div>
 
