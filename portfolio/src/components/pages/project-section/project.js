@@ -1,20 +1,50 @@
 import React from "react";
 
-import Blog1 from '../img/blog1.png'
-import Blog2 from '../img/blog2.png'
-import Synchrotron1 from '../img/synchrotron1.png'
-import Synchrotron2 from '../img/synchrotron2.png' 
-import btc1 from '../img/btc1.png' 
-import btc2 from '../img/btc2.png' 
-import port1 from '../img/Portfolio-Project1.png' 
+import Blog1 from '../../img/projects/blog1.png'
+import Blog2 from '../../img/projects/blog2.png'
+import Synchrotron1 from '../../img/projects/synchrotron1.png'
+import Synchrotron2 from '../../img/projects/synchrotron2.png' 
+import btc1 from '../../img/projects/btc1.png' 
+import btc2 from '../../img/projects/btc2.png' 
+import port1 from '../../img/projects/Portfolio-Project1.png' 
+
+import projects from "../../data/projects.json"
+
+const projectsArray = projects
 
 const Project = () => {
     return (
         <div className="project">
             <h1 className="first-project" data-aos="fade-up" data-aos-delay="100">My Projects:</h1>
-            
-            {/* Project #1 */}
+            {/* <img src="../../img/projects/blog1.png"></img>
+            {projectsArray.map(project => (
+                <div className='project-list'>
+                    <h3>{project.name}</h3>
+                    <p>{project.description}</p>
+                    
+                    <h3>Photos</h3>
+                    <div className="synchrotron-images">
 
+                        {project.images.map(image => (
+                            <img className="synchrotron-image" src='blog1.png'  alt="blog1"></img>
+                            ))}
+
+                    </div>
+                    
+                    <p>Some of the technologies used:&nbsp;
+                        {project.technology.map((tech, i, row) => {
+                            if (i + 1 === row.length){
+                                return(<>{tech}.</>)
+                            } else {
+                                return(<>{tech},&nbsp;</>)
+                            }
+                        })}
+                    </p>
+
+                </div>
+            ))} */}
+
+            {/* Project #1 */}
             <div className='project-list'>
                 <h3 data-aos="fade-up" data-aos-delay="200">Mini Blog Website</h3>
                 <p data-aos="fade-up" data-aos-delay="300">
@@ -118,4 +148,4 @@ const Project = () => {
     )
 };
 
-export default Project; 
+export default Project;  

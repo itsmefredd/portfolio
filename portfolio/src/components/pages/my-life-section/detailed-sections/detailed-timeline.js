@@ -2,13 +2,12 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import { Link } from "react-router-dom"
 import 'react-vertical-timeline-component/style.min.css';
 
-// Returning Function
 function DetailedTimeline() {
   return (
     <div className="DetailedTimeline">
 
         <div className='back-to-life' data-aos="fade-right">
-            <Link to="/home/life" className='back-to-life-link'>Back</Link>
+            <Link to="/home/MyLife" className='back-to-life-link'>Back</Link>
         </div>
       
         <h1 className='detailed-timeline-heading'>Frederick's Life</h1>

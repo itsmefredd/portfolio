@@ -1,0 +1,172 @@
+[
+    {
+        "code": "CSCI 1105",
+        "name": "Introduction to Computer Programming I",
+        "description": "This course provides a general introduction to computer programming. The main focus is on programming skills and how to apply these skills in solving a variety of problems. Procedural programming concepts are stressed."
+    },
+    {
+        "code": "CSCI 1110",
+        "name": "Introduction to Computer Programming II",
+        "description": "This course provides a general introduction to computer science and the hardware and software of computers. The main focus is on programming skills and how to apply these skills in solving a variety of problems. Algorithmic concepts, linear data structures are emphasized."
+    },
+    {
+        "code": "CSCI 1120",
+        "name": "Introduction to Computer Systems",
+        "description": "This course introduces some key concepts in computer systems. Students will learn fundamental systems concepts and apply them to explain how the hardware and software environment affects program behaviour. Topics include data and program representation, program translation, operating systems, software engineering, and networking."
+    },
+    {
+        "code": "CSCI 1170",
+        "name": "Introduction to Web Design and Development",
+        "description": "This course introduces students to key web concepts and skills for designing, implementing, and maintaining web content. Topics include introduction to the Web, UI and UX best practices, hypertext markup languages such as HTML, style sheets, client side programming, multimedia foundations, dynamic content and web content organization and maintenance."
+    },
+    {
+        "code": "CSCI 1300",
+        "name": "Calculus in Computer Science",
+        "description": "This course is an introduction to calculus with a focus on applications to computer science. Students will be exposed to examples from graphics, machine learning, robotics, simulation, and other areas of computer science. Topics covered will include single variable limits, derivatives, integrals, differential equations, and Fourier series."
+    },
+    {
+        "code": "CSCI 1315",
+        "name": "Discrete Math for Computer Science",
+        "description": "This course is an introduction to formal reasoning and discrete mathematics with applications to computer science. Students will be introduced to formal notation and reasoning about problems and algorithms. Topics include: sets, sequences, and summations, simple proof techniques, elementary number theory, back-of-the-envelope approximations, combinatorial objects. Applications and relevance of these concepts in computer science will be emphasized."
+    },
+    {
+        "code": "CSCI 1800",
+        "name": "Computing and Society in History",
+        "description": "This course introduces students to the history of computing from early mechanical devices to the internet. Students will learn to read, write, and discuss scholarly arguments about how computing has shaped society, and how society has shaped computing, over time."
+    },
+    {
+        "code": "CSCI 1801",
+        "name": "Case Studies in Computing and Society",
+        "description": "This course introduces students to specific topics in the history of computing. Topics may include algorithms, automation, or information. Students will learn to read, write, and discuss scholarly arguments about how computing has shaped society, and how society has shaped computing, over time."
+    },
+    {
+        "code": "CSCI 2100",
+        "name": "Case Studies in Computing and Society",
+        "description": "This course helps students communicate effectively and with confidence in a variety of workplace settings. Students learn to understand their audience and to deliver accurate, effective messages. Written assignments and oral presentations allow for the development of these skills through practice."
+    },
+    {
+        "code": "CSCI 2110",
+        "name": "Data Structures & Algorithms",
+        "description": "This course provides a comprehensive introduction to data structures and algorithms, including their design, analysis, and implementation. In discussing design and analysis there is a strong emphasis on abstraction. In discussing implementation, general approaches that are applicable in a wide range of procedural programming language are emphasized, in addition to a focus on the details of implementations. Topics include an introduction to asymptotic analysis and a review of basic data structures (stacks, queues, lists, vectors), trees, priority queues, dictionaries, hashing, search trees, sorting (MergeSort, QuickSort, RadixSort) and sets, and graphs (traversals, spanning trees, shortest paths)."
+    },
+    {
+        "code": "CSCI 2115",
+        "name": "Theory of Computer Science",
+        "description": "This course introduces students to fundamental ideas in computer science. The first part of the course is an introduction to finite state machines and automata theory and its applications. Students will be introduced to finite automata, push-down automata, Turing machines, and other models of computation, with particular emphasis on finite automata. The second part of the course introduces students to asymptotic notation, complexity, and culminates with an introduction to NP-completeness."
+    },
+    {
+        "code": "CSCI 2122",
+        "name": "Systems Programming",
+        "description": "This course presents tools, techniques, and concepts for systems programming. Students will be exposed to assembly and will be introduced to the C programming language. The course also discusses memory hierarchies, performance measurement, exception control flow, and performance related issues. Students will be involved in significant amount of low-level programming."
+    },
+    {
+        "code": "CSCI 2134",
+        "name": "Software Development",
+        "description": "This course presents techniques and methodologies for software development with modern tools. It introduces students to the software development life cycle and best practices for source code management, testing, debugging, and building. Particular focus will be on building individual skills in the development and testing phases of the life cycle. Students will be expected to work with existing medium-size code-bases that are implemented in different programming languages. Students will be exposed to a variety of software tools and will be expected to use them throughout the course."
+    },
+    {
+        "code": "CSCI 2141",
+        "name": "Introduction to Database Systems",
+        "description": "This course introduces students to the concepts of database management systems and database design. Topics include: Database (DB) components, DB design using entity-relationship (relational and object oriented), SQL, and transactional properties and techniques to support them. The concepts will be reinforced using one or more Database Management Systems."
+    },
+    {
+        "code": "CSCI 2170",
+        "name": "Introduction to Server Side Scripting",
+        "description": "A server side scripting language is used to create web pages with dynamic content. The course provides the technology necessary for connecting client web pages to web servers and processing and storing information obtained using forms during web sessions."
+    },
+    {
+        "code": "CSCI 3101",
+        "name": "Social, Ethical and Professional Issues in Computer Science",
+        "description": "Computers can enable people to do things that our present laws and policies were not formulated to cover (hacking, sharing files on the internet, and companies sharing data). In such cases, people need to be able to decide for themselves the best course of action, and defend such decisions. This course aims at developing the ethical reasoning skills and sensitivities that computer professionals will need to make good decisions and to justify them. The course includes a general introduction to ethical theories and their use in making and justifying decisions. We then consider various issues and case studies, illustrating the kinds of problems that can arise from the use and misuse of computers and technology: the responsibilities of computing professionals; ethics on the internet (hacking, computer crime, netiquette); privacy and information; intellectual property; social and political issues (digital divide, computers and work, the internet as a democratic technology)."
+    },
+    {
+        "code": "CSCI 3110",
+        "name": "Algorithms I",
+        "description": "This course covers techniques for the design and analysis of efficient algorithms and data structures. Topics include asymptotic analysis, divide and conquer algorithms, greedy algorithms, dynamic programming, data structure design, optimization algorithms, and amortized analysis. The techniques are applied to problems such as sorting, searching, identifying graph structure, and manipulating sets."
+    },
+    {
+        "code": "CSCI 3120",
+        "name": "Operating Systems",
+        "description": "This course includes a review of I/O and interrupt structures. Topics covered include dynamic procedure activation, system structure and evaluation, memory management, process management, process scheduling, recovery procedures, concurrency, deadlocks, resource allocation, protection, and operating systems implementation."
+    },
+    {
+        "code": "CSCI 3130",
+        "name": "Software Engineering",
+        "description": "The course examines the process of software development, from initial planning through implementation and maintenance. A brief survey of available tools and techniques will be presented covering the topics of analysis, planning, estimating, project management, design, testing, and evaluation. Particular emphasis will be given to organizing and planning, team participation and management, top-down design and structure charts, system and information flow diagrams, walk-throughs and peer review, and testing and quality control."
+    },
+    {
+        "code": "CSCI 3151",
+        "name": "Foundations of Machine Learning",
+        "description": "This course aims to introduce the machine learning, deep networks, natural language processing, the process and practice of data science, data mining and data warehousing. The following topics will be introduced: linear regression, optimization by gradient descent, support vector machines, decision tree classifiers, naive Bayes classifiers, multilayer neural networks, clustering, evaluation of classification and clustering algorithms, cross-validation, avoiding overfitting. Students will use a standard machine learning library to apply algorithms to various datasets."
+    },
+    {
+        "code": "CSCI 3171",
+        "name": "Network Computing",
+        "description": "This course gives students a foundation in computer networks. It presents a top-down view of the layered architectural elements of communication systems, focusing on the Internet and TCP/IP. Topics include client/server systems, packet switching, protocol stacks, queuing theory, application protocols, socket programming, remote service calls, reliable transport, UDP, TCP, and security."
+    },
+    {
+        "code": "CSCI 4146",
+        "name": "The Process of Data Science",
+        "description": "The advent of low-cost storage and processing power coupled with ever increasing amounts of \"born digital\" data has created the new field of data science. The ability to achieve a specific goal or answer a business question by crunching through very large and complex databases is becoming a competitive advantage for businesses and leads to new discoveries in science and medicine. This course is an overview of the different processes that make up a data science project. While other fields concentrate on finding previously unknown knowledge or searchingfor a specific pattern, data science focuses on answering deep questions and making the conclusions accessible to the rest of the organization. This course requires the implementation of software and experimental design in order to complete the assignments."
+    },
+    {
+        "code": "CSCI 4168",
+        "name": "Game Design and Development",
+        "description": "This course covers the fundamentals of digital game design with an emphasis on team-based development. In this course students will produce a significant game using techniques and principles derived from established state-of-the-art industry practices. Topics include an examination of game design theories, programming architectures, audio-visual design and game production."
+    },
+    {
+        "code": "CSCI 4171 ",
+        "name": "Networks and Communication",
+        "description": "The primary objective of this course is to give the student a comprehensive understanding and specialized knowledge in the field of computer networks and communications. The course teaches through a systems approach to networks by examining the hardware and protocol components that comprise a network. The course also examines the interactions and interdependencies between protocols. Topics covered in this course include network principles and concepts, transmission principles, network architecture, routers and routing protocols, direct link networks, wireless networks, internetworking, and emerging network technologies."
+    },
+    {
+        "code": "MATH 1010",
+        "name": "Differential and Integral Calculus II",
+        "description": "A continuation of the study of calculus with topics including: Riemann sums, techniques of integration, elementary differential equations and applications, parametric equations and polar coordinates, sequences and series, Taylor series."
+    },
+    {
+        "code": "MATH 1030",
+        "name": "Matrix Theory and Linear Algebra I",
+        "description": "This course is a self-contained introduction to Matrix Theory and Linear Algebra. Topics include: systems of linear equations, vectors in R^n, matrices, spans, linear independence, bases, dimension, linear transformations in R^n, determinants, eigenvalues and eigenvectors, diagonalization, applications."
+    },
+    {
+        "code": "STAT 2060",
+        "name": "Introduction to Probability and Statistics",
+        "description": "Rigorous introduction to probability and statistical theory. Topics covered include elementary probability, random variables, distributions, estimation and hypothesis testing. Estimation and testing are introduced using maximum likelihood and the generalized likelihood ratio. Natural sequels for this course are STAT 2080.03 and 3360.03."
+    },
+    {
+        "code": "STAT 2080",
+        "name": "Statistical Methods for Data Analysis and Inference",
+        "description": "This course introduces a number of techniques for data analysis and inference commonly used in the experimental sciences. Topics covered include two-sample inference one-way and two-way analysis of variance, correlation, linear regression, and the analysis of categorical and count data. A natural sequel for this course is STAT 3340.03."
+    },
+    {
+        "code": "STAT 2430",
+        "name": "Data Visualization",
+        "description": "Data visualization is the art and science of turning data into readable graphics. We will explore how to design and create data visualizations based on data available and tasks to be achieved. This course aims to introduce students to data visualization, including both the principles and techniques. Students will learn the value of visualization, specific techniques and understand the best visualization method."
+    },
+    {
+        "code": "STAT 2450",
+        "name": "Introduction to Data Mining in R",
+        "description": "This course provided as introduction to data mining and R programming, suited for science students. Data mining methods include a vast set of tools developed in different areas for identifying the patterns in data. Students will learn programming methods for manipulating and exploring data through learning the basic ideas of some clustering, regression and classification methods. No prior programming knowledge is assumed."
+    },
+    {
+        "code": "ECON 1101",
+        "name": "Principles of Microeconomics",
+        "description": "How do you decide whether or not to go to university? Why does the price of pizza change so much less than the price of oil? What will better help prevent climate change: a carbon tax, or a cap-and-trade system? Microeconomic analysis, which considers the behaviour of individuals and businesses, can answer questions like these."
+    },
+    {
+        "code": "PHYC 1280",
+        "name": "Introduction to Physics I",
+        "description": "This course concentrates on mechanics (forces and motion). Primarily for students interested in Physical Sciences and Engineering. Students entering this course must be familiar with algebra, graphs, and trigonometry, and should be taking calculus concurrently. Ideas are introduced through in-class demonstrations enabling students to relate physical theory to events in the real world. Students explore many concepts via hands-on labs."
+    },
+    {
+        "code": "PHYC 1290",
+        "name": "Introduction To Physics II",
+        "description": "This course concentrates on oscillations and waves, optics, electricity and magnetism. Primarily for students interested in Physical Sciences and Engineering. This course is required for all Engineering programs. Students entering this course must be familiar with algebra, graphs, and trigonometry, and should be taking calculus concurrently.Ideas are introduced through in-class demonstrations enabling students to relate physical theory to events in the real world. Students explore many concepts via hands-on labs."
+    },
+    {
+        "code": "PHIL 2991",
+        "name": "NA",
+        "description": ""
+    }
+]

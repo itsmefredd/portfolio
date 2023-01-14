@@ -1,10 +1,10 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom"
 
-import DetailedTimeline from "./life-sections/detailed-timeline.js"
-import LifeGeneral from "./life-sections/life-general.js";
-import DetailedCourses from "./life-sections/detailed-courses.js"
-import NotFound from "./notfound.js";
+import DetailedTimeline from "./detailed-sections/detailed-timeline.js"
+import LifeGeneral from "./detailed-sections/life-general.js";
+import DetailedCourses from "./detailed-sections/detailed-courses.js"
+import NotFound from "../nonfound-page/notfound.js";
 
 const Life = () => {
     return (
@@ -16,7 +16,6 @@ const Life = () => {
                     <Routes>
                         <Route path="/" element={ <LifeGeneral /> }></Route>
                         <Route path="/timeline" element={ <DetailedTimeline/> }></Route>
-                        {/* {/* <Route path="/language" element={ <Languages/> }></Route> */}
                         <Route path="/courses" element={ <DetailedCourses/> }></Route> 
                         <Route path="*" element={ <NotFound/> }></Route>
                     </Routes>

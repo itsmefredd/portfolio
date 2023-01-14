@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import DayTimeline from "../img/Day - Timeline.jpg"
-import DayEducation from "../img/Day - Education.avif"
-import DayMusic from "../img/Day - Music.avif"
-import DayProject from "../img/Day - Project.jpg"
-import DayContact from "../img/Day - Contact.avif"
-import DayAbout from "../img/Day - About.jpeg"
-import DayArts from "../img/Day - Room.avif"
-import DayProgram from "../img/Day - Program.avif"
+import DayTimeline from "../../img/main/Day - Timeline.jpg"
+import DayEducation from "../../img/main/Day - Education.avif"
+import DayMusic from "../../img/main/Day - Music.avif"
+import DayProject from "../../img/main/Day - Project.jpg"
+import DayContact from "../../img/main/Day - Contact.avif"
+import DayAbout from "../../img/main/Day - About.jpeg"
+import DayArts from "../../img/main/Day - Room.avif"
+import DayProgram from "../../img/main/Day - Program.avif"
 
-import "./includes/scroll.js"
+import "../includes/scroll.js"
 
 const Main = () => {
     return (

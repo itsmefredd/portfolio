@@ -1,0 +1,27 @@
+[
+    {
+        "code": "CSCI 3137",
+        "name": "Principles of Programming Languages",
+        "description": "This course provides a comparative study of programming language features. It provides a comparison of different programming paradigms, discusses control and data abstractions with a focus on the underlying principles instead of syntax, and investigates some implementation concerns that drive the design choices made in different programming languages. It also provides students with hands-on experience with modern non-object-oriented imperative programming languages, including functional and logic programming. The goal is to broaden the students’ understanding of the landscape of programming languages and to enable them to compare the capabilities of different programming languages with the goal of choosing an appropriate language for a given project."
+    },
+    {
+        "code": "CSCI 4145",
+        "name": "Cloud Computing",
+        "description": "Cloud computing provides users with the ability to access and use computational, storage, and interconnect resources as services offered by cloud providers. This course provides the students with the theoretical foundations of the cloud computing as well as with hands-on experience in using various cloud technologies. Topics covered are related to the types of cloud services, cloud infrastructure, distributed storage models, and programming models offered as general services and also developed for Big Data. Topics will also include underlying technologies, such as virtualization."
+    },
+    {
+        "code": "CSCI 4174",
+        "name": "Network Security",
+        "description": "Security stands out as a critical issue in the design and deployment of information systems in general, and networks in particular. This course will deal with the design of secure information systems with emphasis on secure networking and secure information transfer. It will also include topical and emerging areas in security such as the establishment of an organization-wide security plan and bio-metric identification systems."
+    },
+    {
+        "code": "STAT 3340 ",
+        "name": "Regression and Analysis of Variance",
+        "description": "A thorough treatment of the theory and practice of regression analysis. Topics include: fitting general linear models using matrices, optimality of least squares estimators (Gauss-Markov theorem), inferences, simple and partial correlation, analysis of residuals, case-deletion diagnostics, polynomial regression, transformations, use of indicator variables for analysis of variance and covariance problems, model selection, and an introduction to nonlinear least squares. This course makes extensive use of computer packages."
+    },
+    {
+        "code": "STAT 3450",
+        "name": "Statistical learning with R",
+        "description": "This course teachesstudents how to use the R software environment to analyze data of various types. Students will be given the opportunity to write their own programs to explore data and solve meaningful problems. Emphasis will be given to a good understanding of supervised/unsupervised learning models, their founding principles, and to data processing and interpretation."
+    }
+]

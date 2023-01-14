@@ -1,0 +1,14 @@
+[
+    {
+        "name": "project name 1",
+        "description": "this is just testing 1",
+        "technology": ["tech1", "tech2", "tech3"],
+        "images": ["Blog1", "Blog2"]
+    },
+    {
+        "name": "project name 2",
+        "description": "this is just testing 2",
+        "technology": ["tech4", "tech5", "tech6"],
+        "images": ["Blog1", "Blog2"]
+    }
+]

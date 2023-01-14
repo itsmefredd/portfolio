@@ -1,6 +1,6 @@
 import React from "react";
 
-import Waiting from "../img/waiting.gif"
+import Waiting from "../../img/contact/waiting.gif"
 
 const Contact = () => {
     return (

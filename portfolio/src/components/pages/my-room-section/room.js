@@ -1,10 +1,11 @@
 import React from "react";
 
-import Band1 from "./../img/Band1.png"
-import Band2 from "./../img/Band2.jpeg"
-import Band3 from "./../img/Band3.jpeg"
 
-import Tennis from "./../img/Tennis1.png"
+import Band1 from "../../img/room/Band1.png"
+import Band2 from "../../img//room/Band2.jpeg"
+import Band3 from "../../img/room/Band3.jpeg"
+
+import Tennis from "../../img/room/Tennis1.png"
 
 const Room = () => {
     return (

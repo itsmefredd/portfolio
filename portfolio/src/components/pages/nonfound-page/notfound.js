@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-import Hello from "./../img/construction.gif"
+import ConstructionImage from "../../img/404/construction.gif"
 
 const NotFound = () => {
     return (
@@ -11,7 +11,7 @@ const NotFound = () => {
                 <Link to="/home">Return to homepage</Link>
             </div>
             <div>
-                <img src={ Hello } className="not-found" alt="not-found"></img>
+                <img src={ ConstructionImage } className="not-found" alt="not-found"></img>
             </div>
         </div>
     )
