@@ -8,11 +8,11 @@ const Contact = () => {
             <div className="contact-section">
                 <h1 data-aos="fade-up" data-aos-delay="800">Contact me via the following methods:</h1>
                 <div data-aos="fade-up" data-aos-delay="900">E-mail: hyeongo0317@gmail.com</div>
-                <div data-aos="fade-up" data-aos-delay="600">School e-mail: dn282145@dal.ca</div>
+                <div data-aos="fade-up" data-aos-delay="600">School e-mail: Frederick.Go@dal.ca</div>
                 <h1 data-aos="fade-up" data-aos-delay="1200">Connect with me here: </h1>
                 <div className="contact-social-section">
-                    <a className="contact-social" data-aos="fade-up" data-aos-delay="700" href="google.com">Linkedin</a>
-                    <a className="contact-social" data-aos="fade-up" data-aos-delay="400" href="google.com">Github</a>
+                    <a className="contact-social" data-aos="fade-up" data-aos-delay="700" href="https://www.linkedin.com/in/fred-go/">Linkedin</a>
+                    <a className="contact-social" data-aos="fade-up" data-aos-delay="400" href="https://github.com/Fredd317">Github</a>
                 </div>
             </div>
             <div className="contact-section contact-section-2" data-aos-delay="500">
