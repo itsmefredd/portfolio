@@ -11,7 +11,7 @@ function DetailedCourses() {
             <Link to="/home/MyLife" className='back-to-life-link-course'>Back</Link>
         </div>
 
-        <h1 className='DetailedCourses-heading' data-aos="fade-up" data-aos-delay="200">Current Courses @ Dalhousie / Summer 2022</h1>
+        <h1 className='DetailedCourses-heading' data-aos="fade-up" data-aos-delay="200">Current Courses @ Dalhousie / Winter 2023</h1>
         <table className='courses'>
             {currentCourses.map((course) => (
                 <tr data-aos="fade-up" data-aos-delay="100" className='course'>
