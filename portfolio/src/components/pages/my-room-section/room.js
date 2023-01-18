@@ -17,7 +17,7 @@ const Room = () => {
                 <h2 className="room-section-one" data-aos="fade-up" data-aos-delay="400">Music</h2>
                 <div className="room-music" data-aos="fade-up" data-aos-delay="600">
                     <div data-aos="fade-up">
-                        I am a fan of music, especially instrucmental. 
+                        I am a fan of music, especially instrumental. 
                     </div>
                     <div data-aos="fade-up" data-aos-delay="800">
                     I play the clarinet, the bass clarinet, the soprano saxophone, and the tenor saxophone. 
