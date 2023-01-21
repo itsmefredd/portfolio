@@ -15,7 +15,7 @@ const Room = () => {
 
             <div className="room-section">
                 <h2 className="room-section-one" data-aos="fade-up" data-aos-delay="400">Music</h2>
-                <div className="room-music" data-aos="fade-up" data-aos-delay="600">
+                <div className="room-music" data-aos="fade-up" data-aos-delay="600" style={{width: "90%", paddingLeft: "5%", paddingTop: "2rem"}}>
                     <div data-aos="fade-up">
                         I am a fan of music, especially instrumental. 
                     </div>

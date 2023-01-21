@@ -149,3 +149,21 @@ const Project = () => {
 };
 
 export default Project;  
+
+
+
+
+
+
+
+/**
+ * CSCI 3130 WEb app
+ * Data vis effects if alcohold on students
+ * data science project - 학원
+ * portfolio
+ * 
+ * 
+ * 
+ * experience
+ * web dev
+ */
