@@ -15,7 +15,10 @@ import projectList from "../../data/projects.json"
 
 const projectsArray = projects
 
-const projectContainers = ["Pinned Projects", "Current Projects", "Past Projects", "Projects to Come"]
+const projectContainers = ["Pinned Projects", 
+                           "Current Projects", 
+                           "Past Projects", 
+                           "Projects to Come"]
 
 function Project(props) {
 
@@ -26,8 +29,15 @@ function Project(props) {
 
             {projectContainers.map((containerName) => (
                 <div className="project-container">
-                    <h1 className="project-container-header">{containerName}</h1>
-                    <ProjectContainer containerName={containerName} projectContainers={projectContainers} projectList={projectList} status={containerName}></ProjectContainer>
+                    <h1 className="project-container-header">
+                        {containerName}
+                    </h1>
+                    <ProjectContainer 
+                        containerName={containerName} 
+                        projectContainers={projectContainers} 
+                        projectList={projectList} 
+                        status={containerName}
+                    ></ProjectContainer>
                 </div>
             ))}
 

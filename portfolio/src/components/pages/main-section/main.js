@@ -16,40 +16,40 @@ const Main = () => {
     return (
         <div className="main">
             <div className="quote">
-                <h1 className="q1 qu1" data-aos="fade-up" data-aos-delay="250">I am Frederick Go.</h1>
-                <h1 className="q1 qu2" data-aos="fade-up" data-aos-delay="500">I am not a&nbsp;[
+                <h1 className="q1 qu1" data-aos="fade-up">I am Frederick Go.</h1>
+                <h1 className="q1 qu2" data-aos="fade-up">I am not a&nbsp;[
                     <span className="text-ani">
-                        <span data-aos="fade-left" data-aos-delay="800" className="delay-1">p</span> 
-                        <span data-aos="fade-up" data-aos-delay="900" className="delay-2">r</span> 
-                        <span data-aos="fade-up" data-aos-delay="1000" className="delay-3">o</span> 
-                        <span data-aos="fade-up" data-aos-delay="1100" className="delay-4">g</span> 
-                        <span data-aos="fade-up" data-aos-delay="1200" className="delay-5">r</span> 
-                        <span data-aos="fade-up" data-aos-delay="1300" className="delay-6">a</span> 
-                        <span data-aos="fade-up" data-aos-delay="1400" className="delay-7">m</span> 
-                        <span data-aos="fade-up" data-aos-delay="1500" className="delay-8">m</span> 
-                        <span data-aos="fade-up" data-aos-delay="1600" className="delay-9">e</span> 
-                        <span data-aos="fade-up" data-aos-delay="1700" className="delay-10">r</span> 
+                        <span data-aos="fade-left" className="delay-1">p</span> 
+                        <span data-aos="fade-up" className="delay-2">r</span> 
+                        <span data-aos="fade-up" className="delay-3">o</span> 
+                        <span data-aos="fade-up" className="delay-4">g</span> 
+                        <span data-aos="fade-up" className="delay-5">r</span> 
+                        <span data-aos="fade-up" className="delay-6">a</span> 
+                        <span data-aos="fade-up" className="delay-7">m</span> 
+                        <span data-aos="fade-up" className="delay-8">m</span> 
+                        <span data-aos="fade-up" className="delay-9">e</span> 
+                        <span data-aos="fade-up" className="delay-10">r</span> 
                     </span>
                 ].</h1>
-                <h1 className="q1 qu3" data-aos="fade-up" data-aos-delay="750">I am a&nbsp;[
+                <h1 className="q1 qu3" data-aos="fade-up">I am a&nbsp;[
                     <span className="text-ani">
-                        <span data-aos="fade-up" data-aos-delay="1900">p</span>
-                        <span data-aos="fade-up" data-aos-delay="1800">r</span>
-                        <span data-aos="fade-up" data-aos-delay="1700">o</span>
-                        <span data-aos="fade-up" data-aos-delay="1600">b</span>
-                        <span data-aos="fade-up" data-aos-delay="1500">l</span>
-                        <span data-aos="fade-up" data-aos-delay="1400">e</span>
-                        <span data-aos="fade-up" data-aos-delay="1300">m</span>&nbsp;
-                        <span data-aos="fade-up" data-aos-delay="1200">s</span>
-                        <span data-aos="fade-up" data-aos-delay="1100">o</span>
-                        <span data-aos="fade-up" data-aos-delay="1000">l</span>
-                        <span data-aos="fade-up" data-aos-delay="900">v</span>
-                        <span data-aos="fade-up" data-aos-delay="800">e</span>
-                        <span data-aos="fade-up" data-aos-delay="700">r</span>
+                        <span data-aos="fade-up">p</span>
+                        <span data-aos="fade-up">r</span>
+                        <span data-aos="fade-up">o</span>
+                        <span data-aos="fade-up">b</span>
+                        <span data-aos="fade-up">l</span>
+                        <span data-aos="fade-up">e</span>
+                        <span data-aos="fade-up">m</span>&nbsp;
+                        <span data-aos="fade-up">s</span>
+                        <span data-aos="fade-up">o</span>
+                        <span data-aos="fade-up">l</span>
+                        <span data-aos="fade-up">v</span>
+                        <span data-aos="fade-up">e</span>
+                        <span data-aos="fade-up">r</span>
                     </span>
                 ].</h1>
             </div>
-            <div className="main-links" data-aos="fade-up" data-aos-delay="1000">
+            <div className="main-links" data-aos="fade-up">
                 <Link to="/home/life/timeline" className="first-link">
                     <img src={ DayTimeline } alt="timeline"></img>
                     <div className="text-over-image text-over-image-b">
@@ -101,8 +101,8 @@ const Main = () => {
                 </Link>
             </div>
             <div className="main-social">
-                <a className="social" data-aos="fade-up" href="https://www.linkedin.com/in/fred-go/" target="_blank" rel="noreferrer">Linkedin</a>
-                <a className="social" data-aos="fade-up" href="https://github.com/Fredd317" target="_blank" rel="noreferrer">Github</a>
+                <a className="social" href="https://www.linkedin.com/in/fred-go/" target="_blank" rel="noreferrer">Linkedin</a>
+                <a className="social" href="https://github.com/Fredd317" target="_blank" rel="noreferrer">Github</a>
             </div>            
         </div>
     )

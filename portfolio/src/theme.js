@@ -3,7 +3,9 @@ import { createGlobalStyle } from "styled-components";
 export const lightTheme = {
     body: "#f0efef",
     fontColor: "#000",
-    keyWordFunction: "text-alt"
+    keyWordFunction: "text-alt",
+    oppositeColor: "black",
+    projectBoxBorder: "#FFFFFF"
 };
 
 export const darkTheme = {
@@ -12,7 +14,8 @@ export const darkTheme = {
     keyWordColor: "#E5A5FF",
     keyWordFunction: "text-alt-dark",
     projectBoxBackground: "#1E2327",
-    projectBoxBorder: "#232F3E"
+    projectBoxBorder: "#232F3E",
+    oppositeColor: "white",
 };
 
 export const GlobalStyle = createGlobalStyle`
@@ -52,6 +55,9 @@ export const GlobalStyle = createGlobalStyle`
   .project-box {
     background-color: ${props => props.theme.projectBoxBackground};
     border: ${props => props.theme.projectBoxBorder} solid 1px;
+  }
+  .project-container-header{
+    color: ${props => props.theme.oppositeColor};
   }
 
   .vertical-timeline-element--work > * > * {

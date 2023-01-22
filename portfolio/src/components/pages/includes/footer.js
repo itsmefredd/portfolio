@@ -2,7 +2,7 @@ import React from "react";
 
 import './footer.css'
 
-const Footer = () => {
+function Footer(){
     return (
         <div className="footer">
             © 2023 Frederick Donghyeon Go. All Rights Reserved. 

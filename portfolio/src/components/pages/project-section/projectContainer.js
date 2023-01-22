@@ -5,21 +5,25 @@ import TechIconList from "./techIconList";
 
 function ProjectContainer(props) {
     return (
-        <>
+        <div className="project-boxes">
             {props.projectList.map((project) => {
                 if (props.containerName == project.status){
                     return(
                         <div className="project-box">
-                            <h3>{project.name}</h3>
+                            <h3 className="project-title">
+                                {project.name}
+                            </h3>
                             <p>
                                 {project.description} <br/>
-                                <TechIconList techList={project.technology}/>
                             </p>
+                            <div className="project-tech-list">
+                                <TechIconList techList={project.technology}/>
+                            </div>
                         </div>
                     )
                 }
             })}
-        </>
+        </div>
     )
 };
 

@@ -8,9 +8,9 @@ function TechIconList(props) {
         <div>
             {props.techList.map((tech) => {
                 return(
-                    <>
+                    <span>
                         <TechIcon techName={tech}/>&nbsp;
-                    </>
+                    </span>
                 )
             })}
         </div>

@@ -4,10 +4,10 @@ import { Link } from "react-router-dom"
 const Timeline = () => {
     return(
         <div className="timeline" >
-            <h3 data-aos="fade-up" data-aos-delay="400">My Brief History on Education</h3>
+            <h3 data-aos="fade-up">My Brief History on Education</h3>
 
             <table className='timeline'>
-                <tr data-aos="fade-up" data-aos-delay="500">
+                <tr data-aos="fade-up">
                     <td className='year'>2002</td>
                     <td>
                         <span className=''>
@@ -32,13 +32,13 @@ const Timeline = () => {
                     </td>
                 </tr>
                 
-                <tr data-aos="fade-up" data-aos-delay="700">
+                <tr data-aos="fade-up">
                     <td className='year'>2013</td>
                     <td>
                         <span className=''>Moved to Halifax, Nova Scotia, Canada. </span>
                     </td>
                 </tr>
-                <tr data-aos="fade-up" data-aos-delay="800">
+                <tr data-aos="fade-up">
                     <td className='year'>2020</td>
                     <td>
                         <span className=''>
@@ -58,7 +58,7 @@ const Timeline = () => {
                         </span>
                     </td>
                 </tr>
-                <tr data-aos="fade-up" data-aos-delay="900">
+                <tr data-aos="fade-up">
                     <td className='year'></td>
                     <td>
                         <span>

@@ -9,12 +9,12 @@ function lifeGeneral() {
       
       {/* Introduction */}
       <div className="life-section">
-        <h1 data-aos="fade-up" data-aos-delay="100">About Me</h1>
+        <h1 data-aos="fade-up">About Me</h1>
         <div className="about-me-content">
-            <div data-aos="fade-up" data-aos-delay="200">
+            <div data-aos="fade-up">
                 <p>Oh. You decided to stay and read more about me. Well, I should welcome you then. :3</p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="300">
+            <div data-aos="fade-up">
                 <p>I am a senior at&nbsp;
                     <a href="https://www.dal.ca/" target="_blank" rel="noreferrer"><font size="+2" className="text-scale1">Dalhousie University</font></a>&nbsp;studying&nbsp;
                     <a href="https://www.dal.ca/faculty/computerscience.html" target="_blank" rel="noreferrer"><font size="+2" className="text-scale2">Computer Science</font></a>.
@@ -27,7 +27,7 @@ function lifeGeneral() {
 
     {/* Timeline */}
     <div className="life-section">
-        <h1 data-aos="fade-up" data-aos-delay="400">Timeline</h1>
+        <h1 data-aos="fade-up">Timeline</h1>
         <Timeline/>
     </div>
 
