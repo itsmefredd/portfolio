@@ -10,7 +10,9 @@ export const darkTheme = {
     body: "#212529",
     fontColor: "#C0C0C0",
     keyWordColor: "#E5A5FF",
-    keyWordFunction: "text-alt-dark"
+    keyWordFunction: "text-alt-dark",
+    projectBoxBackground: "#1E2327",
+    projectBoxBorder: "#232F3E"
 };
 
 export const GlobalStyle = createGlobalStyle`
@@ -46,6 +48,10 @@ export const GlobalStyle = createGlobalStyle`
   }
   .detailed-timeline-link {
     border: 0.25rem dotted ${props => props.theme.keyWordColor};
+  }
+  .project-box {
+    background-color: ${props => props.theme.projectBoxBackground};
+    border: ${props => props.theme.projectBoxBorder} solid 1px;
   }
 
   .vertical-timeline-element--work > * > * {

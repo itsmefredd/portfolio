@@ -17,7 +17,10 @@ const projectsArray = projects
 
 const projectContainers = ["Pinned Projects", "Current Projects", "Past Projects", "Projects to Come"]
 
-function Project() {
+function Project(props) {
+
+    props.setCurrentPage("Projects")
+
     return (
         <div className="project" data-aos="fade-up">
 

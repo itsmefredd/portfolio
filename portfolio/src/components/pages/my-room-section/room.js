@@ -7,7 +7,10 @@ import Band3 from "../../img/room/Band3.jpeg"
 
 import Tennis from "../../img/room/Tennis1.png"
 
-const Room = () => {
+function Room(props){
+
+    props.setCurrentPage("My Room")
+
     return (
         <div className="room">
 

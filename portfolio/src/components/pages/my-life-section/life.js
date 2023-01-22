@@ -6,7 +6,10 @@ import LifeGeneral from "./detailed-sections/life-general.js";
 import DetailedCourses from "./detailed-sections/detailed-courses.js"
 import NotFound from "../nonfound-page/notfound.js";
 
-const Life = () => {
+function Life(props){
+
+    props.setCurrentPage("My Life")
+
     return (
         <div className="life">
             <div className="main-life">

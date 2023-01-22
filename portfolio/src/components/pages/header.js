@@ -17,7 +17,10 @@ function spaceRemover(inputString){
 }
 
 const Header = (props) => {
-    const [currentPage, setCurrentPage] = React.useState("Home");
+    // const [currentPage, setCurrentPage] = React.useState("Home");
+    
+    
+
     return (
         <header className="header">
             <div className="navbar">
@@ -29,8 +32,8 @@ const Header = (props) => {
                                     key={page} 
                                     to={"/home/" + spaceRemover(page)} 
                                     className="header-button home-link" 
-                                    style={{"textAlign": "center", "font-weight": currentPage === page ? "bold" : "", color: "#f0efef", "color": currentPage === page ? "white" : "#a1aba3"}} 
-                                    onClick={() => setCurrentPage(page)}   
+                                    style={{"textAlign": "center", "font-weight": props.currentPage === page ? "bold" : "", color: "#f0efef", "color": props.currentPage === page ? "white" : "#a1aba3"}} 
+                                    onClick={() => props.setCurrentPage(page)}   
                                 >
                                     {page}
                                 </Link>
@@ -41,8 +44,8 @@ const Header = (props) => {
                                     key={page} 
                                     to={"/home/" + spaceRemover(page)} 
                                     className="header-button home-link" 
-                                    style={{"textAlign": "center", "font-weight": currentPage === page ? "bold" : "", color: "#f0efef", "color": currentPage === page ? "black" : "#a1aba3"}} 
-                                    onClick={() => setCurrentPage(page)}   
+                                    style={{"textAlign": "center", "font-weight": props.currentPage === page ? "bold" : "", color: "#f0efef", "color": props.currentPage === page ? "black" : "#a1aba3"}} 
+                                    onClick={() => props.setCurrentPage(page)}   
                                 >
                                     {page}
                                 </Link>

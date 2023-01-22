@@ -26,21 +26,23 @@ const Home = () => {
       theme === "light" ? setTheme("dark") : setTheme("light");
     };
 
+    const [currentPage, setCurrentPage] = React.useState("Home");
+
     return (
         <ThemeProvider theme={ theme === 'light' ? lightTheme : darkTheme }>
             <div className="home">
                 <GlobalStyle/>
                 <Scroll/>
-                <Header themeToggler={themeToggler} theme = {theme}/>
+                <Header themeToggler={themeToggler} theme = {theme} currentPage={currentPage} setCurrentPage={setCurrentPage}/>
 
                 <body className="body">
                     <Routes>
-                        <Route path="/" element={ <Main /> }></Route>
-                        <Route path="/MyLife/*" element={ <Life/> }></Route>
-                        <Route path="/Projects" element={ <ProjectTest/> }></Route>
-                        <Route path="/MyRoom" element={ <Room/> }></Route>
-                        <Route path="/Contact" element={ <Contact/> }></Route>
-                        <Route path="*" element={ <NotFound/> }></Route>
+                        <Route path="/" element={ <Main currentPage={currentPage} setCurrentPage={setCurrentPage}/> }></Route>
+                        <Route path="/MyLife/*" element={ <Life currentPage={currentPage} setCurrentPage={setCurrentPage}/> }></Route>
+                        <Route path="/Projects" element={ <ProjectTest currentPage={currentPage} setCurrentPage={setCurrentPage}/> }></Route>
+                        <Route path="/MyRoom" element={ <Room currentPage={currentPage} setCurrentPage={setCurrentPage}/> }></Route>
+                        <Route path="/Contact" element={ <Contact currentPage={currentPage} setCurrentPage={setCurrentPage}/> }></Route>
+                        <Route path="*" element={ <NotFound currentPage={currentPage} setCurrentPage={setCurrentPage}/> }></Route>
                     </Routes>
                 </body>
                 <Footer/>

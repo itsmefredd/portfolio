@@ -380,12 +380,12 @@ a {
 }
 
 .project-box{
-    border: #232F3E 1px solid;
+    border: white 1px solid;
     padding: 1rem;
     border-radius: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    background-color: #1E2327; /* 212529 */
+    background-color: #f7f2f2; /* 212529 */
 }
 
 *{

@@ -2,7 +2,10 @@ import React from "react";
 
 import Waiting from "../../img/contact/waiting.gif"
 
-const Contact = () => {
+function Contact(props){
+
+    props.setCurrentPage("Contact")
+
     return (
         <div className="contact">
             <div className="contact-section">
