@@ -101,8 +101,8 @@ const Main = () => {
                 </Link>
             </div>
             <div className="main-social">
-                <a className="social" data-aos="fade-up" href="https://www.linkedin.com/in/fred-go/">Linkedin</a>
-                <a className="social" data-aos="fade-up" href="https://github.com/Fredd317">Github</a>
+                <a className="social" data-aos="fade-up" href="https://www.linkedin.com/in/fred-go/" target="_blank" rel="noreferrer">Linkedin</a>
+                <a className="social" data-aos="fade-up" href="https://github.com/Fredd317" target="_blank" rel="noreferrer">Github</a>
             </div>            
         </div>
     )

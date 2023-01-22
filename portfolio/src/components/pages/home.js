@@ -10,6 +10,7 @@ import Life from "./my-life-section/life.js";
 import Room from "./my-room-section/room.js";
 import Contact from "./contact-section/contact.js"
 import Project from "./project-section/project.js";
+import ProjectTest from "./project-section/ProjectTestPage";
 import NotFound from "./nonfound-page/notfound.js"
 
 import Header from "./header.js";
@@ -36,7 +37,7 @@ const Home = () => {
                     <Routes>
                         <Route path="/" element={ <Main /> }></Route>
                         <Route path="/MyLife/*" element={ <Life/> }></Route>
-                        <Route path="/Projects" element={ <Project/> }></Route>
+                        <Route path="/Projects" element={ <ProjectTest/> }></Route>
                         <Route path="/MyRoom" element={ <Room/> }></Route>
                         <Route path="/Contact" element={ <Contact/> }></Route>
                         <Route path="*" element={ <NotFound/> }></Route>

@@ -1,14 +1,74 @@
 [
     {
-        "name": "project name 1",
-        "description": "this is just testing 1",
-        "technology": ["tech1", "tech2", "tech3"],
-        "images": ["Blog1", "Blog2"]
+        "name": "Portfolio Website",
+        "description": "This is my portfolio website. ",
+        "technology": ["REACT", "NEXTJS", "MATERIALUI", "VERCEL"],
+        "status": "Pinned Projects"
+    },
+
+
+    {
+        "name": "Data Science Project",
+        "description": "This is my first personal project-purposed work in data science. ",
+        "technology": ["R", "PYTHON", "JUPYTER", "SCIKITLEARN", "PANDAS", "NUMPY", "RSTUDIO"],
+        "status": "Current Projects"
     },
     {
-        "name": "project name 2",
-        "description": "this is just testing 2",
-        "technology": ["tech4", "tech5", "tech6"],
-        "images": ["Blog1", "Blog2"]
+        "name": "AWS",
+        "description": "This is my academic project to learn the basis of AWS. ",
+        "technology": ["AWS"],
+        "status": "Current Projects"
+    },
+    {
+        "name": "Cryptocurrency Predicting Models",
+        "description": "This project started back in 2020 to learn both the backend and theories of cryptocurrencies and learn how to read in via API and machine learning. ",
+        "technology": ["PYTHON", "Java", "BINANCE", "INTELLIJ", "JUPYTER", "SCIKITLEARN"],
+        "status": "Current Projects"
+    },
+
+
+    {
+        "name": "Synchrotron Project",
+        "description": "Tests on heavy metal concentrations in mussel were performed at the Canadian Light Source with particle accelerator in Saskatoon, Canada. A member of the team from the beginning of the project with designing project to the end travelling to Saskatoon visiting CLS in order to perform the tests and presenting for audiences including scientists.", 
+        "technology": ["BioXAS", "Canada Light Source", "Particle Accelerator"],
+        "status": "Past Projects"
+    },
+    {
+        "name": "Mini Blog Website",
+        "description": "This was a group project to learn serverside scripting with PHP. ", 
+        "technology": ["PHP", "MYSQL", "MAMP"],
+        "status": "Past Projects"
+    },
+    {
+        "name": "CSCI 3130 Trello Cloning",
+        "description": "This was a grouped academic project to learn the AGILE method of software development. We have cloned website Trello for academic purposes. ", 
+        "technology": ["REACT", "MYSQL", "Java", "JSON"],
+        "status": "Past Projects"
+    },
+    {
+        "name": "Data Visualization Project STAT 2430",
+        "description": "This is a group project done in a group of 3 people studying on what effects students' academic performances.", 
+        "technology": ["R", "RSTUDIO"],
+        "status": "Past Projects"
+    },
+    {
+        "name": "Game-dev: Racing game",
+        "description": "This was a grouped academic project developing a full video game. Our team had created a simple racing game in a open-world. ", 
+        "technology": ["UNITY", "C#"],
+        "status": "Past Projects"
+    },
+
+    
+    {
+        "name": "Park Bom Academy Website Project",
+        "description": "This will be a website build project for my mother's academic institution. This is planned to be done in May to June of 2023. ", 
+        "technology": ["REACT", "AWS", "MATERIALUI"],
+        "status": "Projects to Come"
+    },
+    {
+        "name": "Haskell Project",
+        "description": "This will be an academic project to learn the fundamentals of programming languages especially functional languages with Haskell. ", 
+        "technology": ["HASKELL"],
+        "status": "Projects to Come"
     }
 ]

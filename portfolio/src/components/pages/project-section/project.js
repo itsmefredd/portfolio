@@ -16,33 +16,6 @@ const Project = () => {
     return (
         <div className="project">
             <h1 className="first-project" data-aos="fade-up" data-aos-delay="100">My Projects:</h1>
-            {/* <img src="../../img/projects/blog1.png"></img>
-            {projectsArray.map(project => (
-                <div className='project-list'>
-                    <h3>{project.name}</h3>
-                    <p>{project.description}</p>
-                    
-                    <h3>Photos</h3>
-                    <div className="synchrotron-images">
-
-                        {project.images.map(image => (
-                            <img className="synchrotron-image" src='blog1.png'  alt="blog1"></img>
-                            ))}
-
-                    </div>
-                    
-                    <p>Some of the technologies used:&nbsp;
-                        {project.technology.map((tech, i, row) => {
-                            if (i + 1 === row.length){
-                                return(<>{tech}.</>)
-                            } else {
-                                return(<>{tech},&nbsp;</>)
-                            }
-                        })}
-                    </p>
-
-                </div>
-            ))} */}
 
             {/* Project #1 */}
             <div className='project-list'>

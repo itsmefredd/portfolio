@@ -374,9 +374,22 @@ a {
 
 /* Selecting all project names and descriptions */
 .project-list > h3, p{
-    margin-bottom: 1rem;
-    margin-left: 1rem;
+    /* margin-bottom: 1rem; */
+    /* margin-left: 1rem; */
     margin-right: 1rem;
+}
+
+.project-box{
+    border: #232F3E 1px solid;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #1E2327; /* 212529 */
+}
+
+*{
+    /* border: red solid 1px; */
 }
 
 /* Selecting all images of projects */
