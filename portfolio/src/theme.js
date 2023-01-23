@@ -9,7 +9,7 @@ export const lightTheme = {
 };
 
 export const darkTheme = {
-    body: "#212529",
+    body: "#161b22",
     fontColor: "#C0C0C0",
     keyWordColor: "#E5A5FF",
     keyWordFunction: "text-alt-dark",

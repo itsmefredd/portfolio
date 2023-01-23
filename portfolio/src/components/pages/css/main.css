@@ -7,10 +7,120 @@
     flex-direction: column;
 }
 
+
+
+
+
+
+
+*{
+    /* border: 1px solid red; */
+}
+
 /* Selects the body only, main in this case */
 .main {
-    min-height: 87vh;
+    
 }
+.main-introduction{
+    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    padding-top: 5vh;
+}
+
+.main-introduction-left{
+    position: relative;
+    width: 45vw;
+    padding-top: 6.5rem;
+}
+.main-introduction-photo{
+    position: absolute; 
+    z-index: 2;
+    padding-top: 5vh;
+    padding-left: 21vw;
+}
+.main-introduction-photo-item{
+    position: absolute; 
+    z-index: 2;
+    width: 18vw;
+}
+.main-introduction-photo-bg{
+    z-index: 1;
+    position: absolute; 
+    left: 0; 
+    width: 36vw; 
+    height: 29vw; 
+    background-color: #0d1117;
+}
+
+.main-introduction-right{
+    width: 50%;
+}
+.main-introduction-paragraph{
+    padding-left: 10%;
+    padding-top: 35%;
+}
+.main-introduction-paragraph > *{
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.main-introduction-addition{
+    height: 50vh;
+    padding-left: 15vw;
+    padding-top: 10vh;
+    background-color: #0d1117;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5rem;
+}
+.main-introduction-addition-header{
+    font-size: 3rem;
+    margin-bottom: 2vh;
+}
+.main-introduction-addition-paragraph{
+    font-size: 1.5rem;
+}
+.main-introduction-addition-link{
+    margin-top: 1rem;
+    border: #66a5d4 1px solid;
+    width: fit-content;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+.main-introduction-addition-photo{
+    width: 35vw;
+}
+.main-introduction-addition-photo-item{
+    width: 18vw;
+    margin-left: 5vw;
+}
+
+.main-projects{
+    height: 50vh;
+    background-color: #0d1117;
+}
+.main-projects-head{
+    height: 10vh;
+    font-size: 3rem;
+    text-align: center;
+}
+.main-projects-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80vw;
+    margin-left: 10vw;
+    grid-gap: 1rem;
+}
+.main-projects-list-item{
+    border: red solid 1px;
+    padding: 1rem;
+}
+
+
+
+
 
 /* Selects first heading: I am Frederick Go...problem solver */
 .quote {

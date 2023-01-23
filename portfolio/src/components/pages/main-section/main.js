@@ -17,21 +17,21 @@ const Main = () => {
         <div className="main">
             <div className="quote">
                 <h1 className="q1 qu1" data-aos="fade-up">I am Frederick Go.</h1>
-                <h1 className="q1 qu2" data-aos="fade-up">I am not a&nbsp;[
+                <h1 className="q1 qu2" data-aos="fade-up">I am not a&nbsp;
                     <span className="text-ani">
-                        <span data-aos="fade-left" className="delay-1">p</span> 
-                        <span data-aos="fade-up" className="delay-2">r</span> 
-                        <span data-aos="fade-up" className="delay-3">o</span> 
-                        <span data-aos="fade-up" className="delay-4">g</span> 
-                        <span data-aos="fade-up" className="delay-5">r</span> 
-                        <span data-aos="fade-up" className="delay-6">a</span> 
-                        <span data-aos="fade-up" className="delay-7">m</span> 
-                        <span data-aos="fade-up" className="delay-8">m</span> 
-                        <span data-aos="fade-up" className="delay-9">e</span> 
-                        <span data-aos="fade-up" className="delay-10">r</span> 
+                        <span data-aos="fade-left">p</span> 
+                        <span data-aos="fade-up">r</span> 
+                        <span data-aos="fade-up">o</span> 
+                        <span data-aos="fade-up">g</span> 
+                        <span data-aos="fade-up">r</span> 
+                        <span data-aos="fade-up">a</span> 
+                        <span data-aos="fade-up">m</span> 
+                        <span data-aos="fade-up">m</span> 
+                        <span data-aos="fade-up">e</span> 
+                        <span data-aos="fade-up">r</span> 
                     </span>
-                ].</h1>
-                <h1 className="q1 qu3" data-aos="fade-up">I am a&nbsp;[
+                .</h1>
+                <h1 className="q1 qu3" data-aos="fade-up">I am a&nbsp;
                     <span className="text-ani">
                         <span data-aos="fade-up">p</span>
                         <span data-aos="fade-up">r</span>
@@ -47,7 +47,7 @@ const Main = () => {
                         <span data-aos="fade-up">e</span>
                         <span data-aos="fade-up">r</span>
                     </span>
-                ].</h1>
+                .</h1>
             </div>
             <div className="main-links" data-aos="fade-up">
                 <Link to="/home/life/timeline" className="first-link">

@@ -6,6 +6,7 @@ import { lightTheme, darkTheme, GlobalStyle } from "../../theme.js"
 import Scroll from  "./includes/scroll.js"
 import Footer from "./includes/footer.js";
 import Main from "./main-section/main.js";
+import MainTesting from "./main-section/main-testing.js";
 import Life from "./my-life-section/life.js";
 import Room from "./my-room-section/room.js";
 import Contact from "./contact-section/contact.js"
@@ -38,6 +39,7 @@ const Home = () => {
                 <body className="body">
                     <Routes>
                         <Route path="/" element={ <Main currentPage={currentPage} setCurrentPage={setCurrentPage}/> }></Route>
+                        {/* <Route path="/" element={ <MainTesting currentPage={currentPage} setCurrentPage={setCurrentPage}/> }></Route> */}
                         <Route path="/MyLife/*" element={ <Life currentPage={currentPage} setCurrentPage={setCurrentPage}/> }></Route>
                         <Route path="/Projects" element={ <ProjectTest currentPage={currentPage} setCurrentPage={setCurrentPage}/> }></Route>
                         <Route path="/MyRoom" element={ <Room currentPage={currentPage} setCurrentPage={setCurrentPage}/> }></Route>

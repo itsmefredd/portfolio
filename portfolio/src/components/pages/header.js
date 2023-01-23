@@ -58,7 +58,7 @@ const Header = (props) => {
                         <button 
                             className="select-dark-mode" 
                             onClick={props.themeToggler}
-                            style={{"backgroundColor": props.theme === "dark" ? "#212529" : "#f0efef"}}
+                            style={{"backgroundColor": props.theme === "dark" ? "#161b22" : "#f0efef"}}
                         >
                             <MdNightlightRound/>
                         </button>
