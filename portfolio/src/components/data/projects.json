@@ -5,7 +5,18 @@
         "technology": ["REACT", "NEXTJS", "MATERIALUI", "VERCEL"],
         "status": "Pinned Projects"
     },
-
+    {
+        "name": "Data Visualization Project",
+        "description": "This is a group project done in a group of 3 people studying on what effects students' academic performances.", 
+        "technology": ["R", "RSTUDIO"],
+        "status": "Pinned Projects"
+    },
+    {
+        "name": "Trello Cloning",
+        "description": "This was a grouped academic project to learn the AGILE method of software development. We have cloned website Trello for academic purposes. ", 
+        "technology": ["REACT", "MYSQL", "Java", "JSON"],
+        "status": "Pinned Projects"
+    },
 
     {
         "name": "Data Science Project",
@@ -25,6 +36,12 @@
         "technology": ["PYTHON", "Java", "BINANCE", "INTELLIJ", "JUPYTER", "SCIKITLEARN"],
         "status": "Current Projects"
     },
+    {
+        "name": "Portfolio Website",
+        "description": "This is my portfolio website. ",
+        "technology": ["REACT", "NEXTJS", "MATERIALUI", "VERCEL"],
+        "status": "Current Projects"
+    },
 
 
     {
@@ -40,21 +57,21 @@
         "status": "Past Projects"
     },
     {
-        "name": "CSCI 3130 Trello Cloning",
+        "name": "Trello Cloning",
         "description": "This was a grouped academic project to learn the AGILE method of software development. We have cloned website Trello for academic purposes. ", 
         "technology": ["REACT", "MYSQL", "Java", "JSON"],
-        "status": "Past Projects"
-    },
-    {
-        "name": "Data Visualization Project STAT 2430",
-        "description": "This is a group project done in a group of 3 people studying on what effects students' academic performances.", 
-        "technology": ["R", "RSTUDIO"],
         "status": "Past Projects"
     },
     {
         "name": "Game-dev: Racing game",
         "description": "This was a grouped academic project developing a full video game. Our team had created a simple racing game in a open-world. ", 
         "technology": ["UNITY", "C#"],
+        "status": "Past Projects"
+    },
+    {
+        "name": "Data Visualization Project",
+        "description": "This is a group project done in a group of 3 people studying on what effects students' academic performances.", 
+        "technology": ["R", "RSTUDIO"],
         "status": "Past Projects"
     },
 

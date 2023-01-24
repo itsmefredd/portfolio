@@ -67,6 +67,17 @@ export const GlobalStyle = createGlobalStyle`
     color: ${props => props.theme.fontColor};
   }
 
+  .main-introduction-paragraph > *{
+    animation-name: "text-light-to-dark";
+    animation-duration: 5s;
+    animation-delay: 0s;
+  }
+
+  @keyframes text-light-to-dark {
+    0% {color: black;}
+    100% {color: white;}
+  }
+
   .text-scale1 {
     animation-name: ${props => props.theme.keyWordFunction};
     animation-duration: 3s;

@@ -1,18 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import DayTimeline from "../../img/main/Day - Timeline.jpg"
-import DayEducation from "../../img/main/Day - Education.avif"
-import DayMusic from "../../img/main/Day - Music.avif"
-import DayProject from "../../img/main/Day - Project.jpg"
-import DayContact from "../../img/main/Day - Contact.avif"
-import DayArts from "../../img/main/Day - Room.avif"
-import DayProgram from "../../img/main/Day - Program.avif"
-
 import FrederickPhoto from "../../img/main/FrederickPhoto.jpeg"
 import FrederickPhoto2 from "../../img/main/FrederickPhoto2.jpg"
 
 import "../includes/scroll.js"
+
+import projectList from "../../data/projects.json"
+
+import TechIconList from "./../project-section/techIconList"
 
 function Main(){
     return (
@@ -66,30 +62,28 @@ function Main(){
                     My Pinned Projects
                 </div>
                 <div className="main-projects-list">
-                    <div className="main-projects-list-item">
-                        <span>
-                            Project 1<br/>
-                        </span>
-                        <span>
-                            This is my recent project number one. 
-                        </span>
-                    </div>
-                    <div className="main-projects-list-item">
-                        <span>
-                            Project 2<br/>
-                        </span>
-                        <span>
-                            This is my recent project number two.
-                        </span>
-                    </div>
-                    <div className="main-projects-list-item">
-                        <span>
-                            Project 3<br/>
-                        </span>
-                        <span>
-                            This is my recent project number three.
-                        </span>
-                    </div>
+                    {projectList.map((project) => {
+                        if ("Pinned Projects" == project.status){
+                            return(
+                                <div className="project-box">
+                                    <h3 className="project-title">
+                                        {project.name}
+                                    </h3>
+                                    <p>
+                                        {project.description} <br/>
+                                    </p>
+                                    <div className="project-tech-list">
+                                        <TechIconList techList={project.technology}/>
+                                    </div>
+                                </div>
+                            )
+                        }
+                    })}
+                </div>
+                <div className="main-projects-link">
+                    <a href="/home/Projects">
+                        View all projects
+                    </a>
                 </div>
             </div>
 

@@ -66,10 +66,17 @@
     font-size: 1.5rem;
 }
 
+/* .main-introduction-paragraph > *{
+    animation-name: text-light-to-dark;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-delay: 4s;
+  } */
+
 .main-introduction-addition{
-    height: 50vh;
+    height: 70vh;
     padding-left: 15vw;
-    padding-top: 10vh;
+    padding-top: 22.5rem;
     background-color: #0d1117;
     display: flex;
     flex-direction: row;
@@ -98,13 +105,14 @@
 }
 
 .main-projects{
-    height: 50vh;
+    height: 80vh;
     background-color: #0d1117;
 }
 .main-projects-head{
     height: 10vh;
     font-size: 3rem;
     text-align: center;
+    margin-bottom: 5vh;
 }
 .main-projects-list{
     display: grid;
@@ -116,6 +124,22 @@
 .main-projects-list-item{
     border: red solid 1px;
     padding: 1rem;
+}
+.main-projects-link{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 5vh;
+
+    border: #66a5d4 1px solid;
+    width: fit-content;
+    padding: 0.5rem;
+    border-radius: 1rem;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+*{
+    /* border: red solid 2px; */
 }
 
 
