@@ -12,7 +12,7 @@ const pages = ['Home', 'My Life', 'Projects', 'My Room', 'Contact'];
  */ 
 function spaceRemover(inputString){
     // If page is Home, return an empty string. 
-    if (inputString == "Home"){return ""}
+    if (inputString === "Home"){return ""}
     return inputString.replace(/\s/g, '');
 }
 
@@ -32,7 +32,7 @@ const Header = (props) => {
                                     key={page} 
                                     to={"/home/" + spaceRemover(page)} 
                                     className="header-button home-link" 
-                                    style={{"textAlign": "center", "font-weight": props.currentPage === page ? "bold" : "", color: "#f0efef", "color": props.currentPage === page ? "white" : "#a1aba3"}} 
+                                    style={{"textAlign": "center", "font-weight": props.currentPage === page ? "bold" : "", "color": props.currentPage === page ? "white" : "#a1aba3"}} 
                                     onClick={() => props.setCurrentPage(page)}   
                                 >
                                     {page}
@@ -44,7 +44,7 @@ const Header = (props) => {
                                     key={page} 
                                     to={"/home/" + spaceRemover(page)} 
                                     className="header-button home-link" 
-                                    style={{"textAlign": "center", "font-weight": props.currentPage === page ? "bold" : "", color: "#f0efef", "color": props.currentPage === page ? "black" : "#a1aba3"}} 
+                                    style={{"textAlign": "center", "font-weight": props.currentPage === page ? "bold" : "", "color": props.currentPage === page ? "black" : "#a1aba3"}} 
                                     onClick={() => props.setCurrentPage(page)}   
                                 >
                                     {page}
@@ -62,6 +62,12 @@ const Header = (props) => {
                         >
                             <MdNightlightRound/>
                         </button>
+                        {/* <div className="switch-checkbox">
+                            <label className="switch">
+                                <input type="checkbox" onChange={props.themeToggler}></input>
+                                <span className="slider round"></span>
+                            </label>
+                        </div> */}
                     </div>
                 </div>
             </div>

@@ -45,7 +45,7 @@ const Timeline = () => {
                             Graduated high school:&nbsp;
                                 <font size="+2">
                                     <a href='https://www.hgs.ns.ca/' target="_blank" rel="noreferrer" className='location-link'>
-                                        Halifax Grammar School
+                                        Halifax Grammar School&nbsp;
                                     </a>
                                 </font>
                             with High Honours 
