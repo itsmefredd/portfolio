@@ -14,8 +14,15 @@ function Contact(props){
                 <div data-aos="fade-up" data-aos-delay="600">School e-mail: Frederick.Go@dal.ca</div>
                 <h1 data-aos="fade-up" data-aos-delay="1200">Connect with me here: </h1>
                 <div className="contact-social-section">
-                    <a className="contact-social" data-aos="fade-up" data-aos-delay="700" href="https://www.linkedin.com/in/fred-go/">Linkedin</a>
-                    <a className="contact-social" data-aos="fade-up" data-aos-delay="400" href="https://github.com/Fredd317">Github</a>
+                    <a className="contact-social" data-aos="fade-up" data-aos-delay="700" href="https://www.linkedin.com/in/fred-go/" target="_blank">
+                    <img align="left" alt="Frederick's LinkedIN" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
+                    </a>
+                    <a className="contact-social" data-aos="fade-up" data-aos-delay="400" href="https://github.com/itsmefredgo" target="_blank">
+                        <img align="left" alt="Frederick's GitHub" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/github.svg" />
+                    </a>
+                    <a className="contact-social" data-aos="fade-up" data-aos-delay="400" href="https://www.linkedin.com/in/frederick-go-1b9b56203/" target="_blank">
+                        <img align="left" alt="Frederick's Instagram" width="22px" src="https://raw.githubusercontent.com/hussainweb/hussainweb/main/icons/instagram.png" />
+                    </a>
                 </div>
             </div>
             <div className="contact-section contact-section-2" data-aos-delay="500">

@@ -41,7 +41,6 @@
     left: 0; 
     width: 36vw; 
     height: 29vw; 
-    background-color: #0d1117;
 }
 
 .main-introduction-right{
@@ -67,7 +66,6 @@
     height: 70vh;
     padding-left: 15vw;
     padding-top: 22.5rem;
-    background-color: #0d1117;
     display: flex;
     flex-direction: row;
     padding-bottom: 5rem;
@@ -96,7 +94,6 @@
 
 .main-projects{
     height: 80vh;
-    /* background-color: #0d1117; */
 }
 .main-projects-head{
     height: 10vh;
@@ -377,11 +374,6 @@
 }
 a {
     text-decoration: none;
-    color: black;
-}
-@keyframes text-alt {
-    0% {color: black;}
-    100% {color: #c94c4c;}
 }
 
 
@@ -397,7 +389,6 @@ a {
 }
 .location-link {
     text-decoration: none;
-    color: black;
 }
 
 /* Selects Languages component ---------- */
@@ -516,7 +507,6 @@ a {
 .project-box{
     padding: 1rem;
     border-radius: 1rem;
-    /* background-color: red; */
 }
 .project-boxes{
     display: grid;
@@ -559,7 +549,6 @@ a {
 }
 .detailed-timeline-link {
     text-decoration: none;
-    color: black;
     margin-left: 2vw;
     padding: 1rem 1rem;
     border: 0.25rem dotted navy;
@@ -763,6 +752,9 @@ a {
 .vertical-timeline-element--work > * {
     color: red;
 }
+.vertical-timeline-element--work > * > * {
+    color: black;
+}
 
 
 
@@ -774,7 +766,10 @@ a {
 
 
 
-
+.contact-social{
+    padding: 1rem;
+    border-radius: 1rem;
+}
 
 
 
