@@ -20,7 +20,7 @@ function Contact(props){
                     <a className="contact-social" data-aos="fade-up" data-aos-delay="400" href="https://github.com/itsmefredgo" target="_blank">
                         <img align="left" alt="Frederick's GitHub" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/github.svg" />
                     </a>
-                    <a className="contact-social" data-aos="fade-up" data-aos-delay="400" href="https://www.linkedin.com/in/frederick-go-1b9b56203/" target="_blank">
+                    <a className="contact-social" data-aos="fade-up" data-aos-delay="400" href="https://www.instagram.com/itsmefredgo/" target="_blank">
                         <img align="left" alt="Frederick's Instagram" width="22px" src="https://raw.githubusercontent.com/hussainweb/hussainweb/main/icons/instagram.png" />
                     </a>
                 </div>

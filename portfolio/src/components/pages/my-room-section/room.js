@@ -70,9 +70,9 @@ function Room(props){
                         I love all about technology; hence, I decided to persue my career in Computer Science. :3
                         Some of my favourite techs are: 
                         <ul>
-                            <li>- Electric Vehicles</li>
-                            <li>- Autonomous Vehicles</li>
-                            <li>- Blockchain Technologies</li>
+                            <li>Electric Vehicles</li>
+                            <li>Autonomous Vehicles</li>
+                            <li>Blockchain Technologies</li>
                         </ul>
                     </div>
                 </div>

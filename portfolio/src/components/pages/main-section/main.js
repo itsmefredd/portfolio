@@ -101,13 +101,13 @@ const Main = () => {
                 </Link>
             </div>
             <div className="main-social">
-                <a className="contact-social" data-aos="fade-up" data-aos-delay="700" href="https://www.linkedin.com/in/fred-go/" target="_blank">
+                <a className="contact-social" href="https://www.linkedin.com/in/fred-go/" target="_blank">
                 <img align="left" alt="Frederick's LinkedIN" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
                 </a>
-                <a className="contact-social" data-aos="fade-up" data-aos-delay="400" href="https://github.com/itsmefredgo" target="_blank">
+                <a className="contact-social" href="https://github.com/itsmefredgo" target="_blank">
                     <img align="left" alt="Frederick's GitHub" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/github.svg" />
                 </a>
-                <a className="contact-social" data-aos="fade-up" data-aos-delay="400" href="https://www.linkedin.com/in/frederick-go-1b9b56203/" target="_blank">
+                <a className="contact-social" href="https://www.linkedin.com/in/frederick-go-1b9b56203/" target="_blank">
                     <img align="left" alt="Frederick's Instagram" width="22px" src="https://raw.githubusercontent.com/hussainweb/hussainweb/main/icons/instagram.png" />
                 </a>
             </div>         

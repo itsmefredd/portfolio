@@ -651,10 +651,10 @@ a {
 /* Contact Stylesheet ===============================================================================================*/
 
 .contact {
-    min-height: 68vh;
+    min-height: auto;
     width: 70vw;
     margin-left: 15%;
-    padding-top: 15vh;
+    padding-top: 5vh;
     padding-bottom: 5vh;
     display: flex;
     flex-direction: row;

@@ -39,6 +39,9 @@ export const GlobalStyle = createGlobalStyle`
 	.header, .footer, .body, .select-dark-mode{
 		background-color: ${props => props.theme.primaryBackground};
 	}
+	body {
+		background: ${props => props.theme.primaryBackground};
+	}
 
 	// Project boxes
 	.project-box{
