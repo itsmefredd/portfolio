@@ -10,7 +10,8 @@ import projectList from "../../data/projects.json"
 
 import TechIconList from "./../project-section/techIconList"
 
-function Main(){
+
+function Main(props){
     return (
         <div className="main" data-aos="fade-up">
             <div className="main-introduction">

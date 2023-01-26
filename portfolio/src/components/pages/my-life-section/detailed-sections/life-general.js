@@ -1,12 +1,17 @@
 import Timeline from "../sections/timeline.js"
 import Languages from "../sections/languages.js"
 import Courses from "../sections/courses.js"
+import LanguageTest from "./../sections/languageTest"
 
 // Returning Function
-function lifeGeneral() {
+function lifeGeneral(props) {
+
+    console.log("life section ", props.theme)
+
   return (
+
+
     <div className="App">
-      
       {/* Introduction */}
       <div className="life-section">
         <h1 data-aos="fade-up">About Me</h1>
@@ -36,6 +41,13 @@ function lifeGeneral() {
         <h1 data-aos="fade-up">Tools</h1>
         <Languages/>
     </div>
+
+    <div className="life-section" style={{minHeight: "80vh", height: "fit-contents"}} >
+        <h1 data-aos="fade-up">Tools</h1>
+        <LanguageTest theme={props.theme}/>
+        <h3>Click on a tool to view projects with it</h3>
+    </div>
+      
 
     {/* Dalhousie */}
     <div className="life-section last-section">

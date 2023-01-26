@@ -1,11 +1,15 @@
-import React from "react";
+import React, { PureComponent } from 'react';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
+
+import Graph from "./sections/graph.js"
 
 import Band1 from "../../img/room/Band1.png"
 import Band2 from "../../img//room/Band2.jpeg"
 import Band3 from "../../img/room/Band3.jpeg"
 
 import Tennis from "../../img/room/Tennis1.png"
+
 
 function Room(props){
 
@@ -76,6 +80,12 @@ function Room(props){
                         </ul>
                     </div>
                 </div>
+            </div>
+
+            <div className="room-section">
+                <h1>Testing Chart</h1>
+
+                <Graph/>
             </div>
         </div>
     )

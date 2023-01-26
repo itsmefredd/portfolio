@@ -14,13 +14,12 @@ function Life(props){
         <div className="life">
             <div className="main-life">
 
-                {/* Body of website */}
                 <body className="life-extension">
                     <Routes>
-                        <Route path="/" element={ <LifeGeneral /> }></Route>
-                        <Route path="/timeline" element={ <DetailedTimeline/> }></Route>
-                        <Route path="/courses" element={ <DetailedCourses/> }></Route> 
-                        <Route path="*" element={ <NotFound/> }></Route>
+                        <Route path="/" element={ <LifeGeneral theme={props.theme} /> }></Route>
+                        <Route path="/timeline" element={ <DetailedTimeline theme={props.theme}/> }></Route>
+                        <Route path="/courses" element={ <DetailedCourses theme={props.theme}/> }></Route> 
+                        <Route path="*" element={ <NotFound theme={props.theme}/> }></Route>
                     </Routes>
                 </body>
 

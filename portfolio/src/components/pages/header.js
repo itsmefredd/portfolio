@@ -22,7 +22,7 @@ const Header = (props) => {
     
 
     return (
-        <header className="header">
+        <div className="header">
             <div className="navbar">
                 <div className="links">
                     {pages.map((page) => {
@@ -32,7 +32,7 @@ const Header = (props) => {
                                     key={page} 
                                     to={"/home/" + spaceRemover(page)} 
                                     className="header-button home-link" 
-                                    style={{"textAlign": "center", "font-weight": props.currentPage === page ? "bold" : "", "color": props.currentPage === page ? "white" : "#a1aba3"}} 
+                                    style={{"textAlign": "center", "fontWeight": props.currentPage === page ? "bold" : "", "color": props.currentPage === page ? "white" : "#a1aba3"}} 
                                     onClick={() => props.setCurrentPage(page)}   
                                 >
                                     {page}
@@ -71,7 +71,7 @@ const Header = (props) => {
                     </div>
                 </div>
             </div>
-        </header>
+        </div>
     )
 };
 

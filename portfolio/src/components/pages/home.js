@@ -44,17 +44,17 @@ const Home = () => {
                 <Scroll/>
                 <Header themeToggler={themeToggler} theme = {theme} currentPage={currentPage} setCurrentPage={setCurrentPage}/>
 
-                <body className="body">
+                <div className="body">
                     <Routes>
                         {/* <Route path="/" element={ <Main currentPage={currentPage} setCurrentPage={setCurrentPage}/> }></Route> */}
-                        <Route path="/" element={ <MainTesting currentPage={currentPage} setCurrentPage={setCurrentPage}/> }></Route>
-                        <Route path="/MyLife/*" element={ <Life currentPage={currentPage} setCurrentPage={setCurrentPage}/> }></Route>
-                        <Route path="/Projects" element={ <ProjectTest currentPage={currentPage} setCurrentPage={setCurrentPage}/> }></Route>
-                        <Route path="/MyRoom" element={ <Room currentPage={currentPage} setCurrentPage={setCurrentPage}/> }></Route>
-                        <Route path="/Contact" element={ <Contact currentPage={currentPage} setCurrentPage={setCurrentPage}/> }></Route>
-                        <Route path="*" element={ <NotFound currentPage={currentPage} setCurrentPage={setCurrentPage}/> }></Route>
+                        <Route path="/" element={ <MainTesting theme={theme} currentPage={currentPage} setCurrentPage={setCurrentPage}/> }></Route>
+                        <Route path="/MyLife/*" element={ <Life theme={theme} currentPage={currentPage} setCurrentPage={setCurrentPage}/> }></Route>
+                        <Route path="/Projects" element={ <ProjectTest theme={theme} currentPage={currentPage} setCurrentPage={setCurrentPage}/> }></Route>
+                        <Route path="/MyRoom" element={ <Room theme={theme} currentPage={currentPage} setCurrentPage={setCurrentPage}/> }></Route>
+                        <Route path="/Contact" element={ <Contact theme={theme} currentPage={currentPage} setCurrentPage={setCurrentPage}/> }></Route>
+                        <Route path="*" element={ <NotFound theme={theme} currentPage={currentPage} setCurrentPage={setCurrentPage}/> }></Route>
                     </Routes>
-                </body>
+                </div>
                 <Footer/>
             </div>
         </ThemeProvider>

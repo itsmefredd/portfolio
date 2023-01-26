@@ -7,6 +7,11 @@
     flex-direction: column;
 }
 
+*{
+    /* border: red solid 1px; */
+}
+
+
 /* Selects the body only, main in this case */
 .main {
     
@@ -316,7 +321,9 @@
 .life {
     min-height: 87vh;
     width: 70vw;
-    margin-left: 15vw;
+    /* margin-left: 15vw; */
+    padding-left: 14vw;
+    padding-right: 14vw;
 }
 .main-life {
     padding-top: 5vh;
@@ -336,8 +343,8 @@
 .life-section > div {
     font-size: 1.25rem;
     margin-top: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 
 .about-me-content {
@@ -808,3 +815,46 @@ animation-name: text-alt-dark;
 
 
 
+.life-tools{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
+    /* display: grid; */
+    /* grid-template-rows: 1fr 1fr; */
+}
+.life-tools:nth-child(1){
+    /* flex-grow: 1; */
+}
+.life-tools:nth-child(2){
+    /* flex-grow: 1; */
+    /* width: 2rem; */
+    height: 70vh;
+    
+}
+.life-tools > *{
+    flex-basis: 0;
+    flex-grow: 1;
+    /* border: red solid 1px; */
+    /* flex-grow: 1; */
+}
+
+
+
+.tools-specific{
+    width: 80%;
+    /* margin-left: 5%; */
+    margin-top: 2rem;
+}
+.tools-specific > * {
+    margin-bottom: 1rem;
+}
+.tools-specific:last-child{
+    /* border: red solid 1px; */
+    margin-top: 3rem;
+}
+
+.tool-to-project{
+    margin-top: 2rem;
+    margin-left: -2rem;
+}

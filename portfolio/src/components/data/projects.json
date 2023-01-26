@@ -26,8 +26,8 @@
     },
     {
         "name": "AWS",
-        "description": "This is my academic project to learn the basis of AWS. ",
-        "technology": ["AWS"],
+        "description": "This is my academic project to learn the basis of AWS. This is my academic project to learn the basis of AWS. This is my academic project to learn the basis of AWS. This is my academic project to learn the basis of AWS. This is my academic project to learn the basis of AWS. This is my academic project to learn the basis of AWS. This is my academic project to learn the basis of AWS. This is my academic project to learn the basis of AWS. This is my academic project to learn the basis of AWS. ",
+        "technology": ["AWS", "R"],
         "status": "Current Projects"
     },
     {
@@ -85,7 +85,7 @@
     {
         "name": "Haskell Project",
         "description": "This will be an academic project to learn the fundamentals of programming languages especially functional languages with Haskell. ", 
-        "technology": ["HASKELL"],
+        "technology": ["HASKELL", "R"],
         "status": "Projects to Come"
     }
 ]
