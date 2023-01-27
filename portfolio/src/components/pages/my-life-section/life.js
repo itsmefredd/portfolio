@@ -5,6 +5,7 @@ import DetailedTimeline from "./detailed-sections/detailed-timeline.js"
 import LifeGeneral from "./detailed-sections/life-general.js";
 import DetailedCourses from "./detailed-sections/detailed-courses.js"
 import NotFound from "../nonfound-page/notfound.js";
+import DetailedTools from "./detailed-sections/detailed-tools"
 
 function Life(props){
 
@@ -19,6 +20,7 @@ function Life(props){
                         <Route path="/" element={ <LifeGeneral theme={props.theme} /> }></Route>
                         <Route path="/timeline" element={ <DetailedTimeline theme={props.theme}/> }></Route>
                         <Route path="/courses" element={ <DetailedCourses theme={props.theme}/> }></Route> 
+                        <Route path="/tools" element={ <DetailedTools theme={props.theme}/> }></Route> 
                         <Route path="*" element={ <NotFound theme={props.theme}/> }></Route>
                     </Routes>
                 </body>

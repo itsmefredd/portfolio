@@ -130,10 +130,18 @@
     margin-left: auto;
     margin-right: auto;
 }
-*{
-    /* border: red solid 2px; */
+.main-contact{
+    height: 50vh;
+    padding-left: 15vw;
+    padding-top: 22.5rem;
+    padding-bottom: 5rem;
 }
-
+.main-contact > *{
+    font-size: 3rem;
+}
+.main-contact > div > div{
+    margin-left: 2rem;
+}
 
 
 
@@ -335,7 +343,7 @@
 }
 
 /* Headings of each component */
-.life-section > h1 {
+.life-section > h1 > span {
     text-decoration: underline;
 }
 

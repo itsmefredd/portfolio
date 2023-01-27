@@ -2,6 +2,7 @@ import Timeline from "../sections/timeline.js"
 import Languages from "../sections/languages.js"
 import Courses from "../sections/courses.js"
 import LanguageTest from "./../sections/languageTest"
+import { Link } from "react-router-dom"
 
 // Returning Function
 function lifeGeneral(props) {
@@ -14,7 +15,7 @@ function lifeGeneral(props) {
     <div className="App">
       {/* Introduction */}
       <div className="life-section">
-        <h1 data-aos="fade-up">About Me</h1>
+        <h1 data-aos="fade-up"><span>About Me</span></h1>
         <div className="about-me-content">
             <div data-aos="fade-up">
                 <p>Oh. You decided to stay and read more about me. Well, I should welcome you then. :3</p>
@@ -32,26 +33,28 @@ function lifeGeneral(props) {
 
     {/* Timeline */}
     <div className="life-section">
-        <h1 data-aos="fade-up">Timeline</h1>
+        <h1 data-aos="fade-up"><span>Timeline</span></h1>
         <Timeline/>
     </div>
 
     {/* Languages */}
     <div className="life-section">
-        <h1 data-aos="fade-up">Tools</h1>
+        <h1 data-aos="fade-up"><span>Tools</span></h1>
         <Languages/>
     </div>
 
     <div className="life-section" style={{minHeight: "80vh", height: "fit-contents"}} >
-        <h1 data-aos="fade-up">Tools</h1>
+        <h1 data-aos="fade-up"><span>Tools</span><span style={{fontSize: "12pt", textDecoration: "none"}}> Click on a tool to view projects with it</span></h1>
         <LanguageTest theme={props.theme}/>
-        <h3>Click on a tool to view projects with it</h3>
+        <div className="tool-to-project ">
+            <Link to="tools" className="detailed-timeline-link">View All Tools</Link>
+        </div>
     </div>
       
 
     {/* Dalhousie */}
     <div className="life-section last-section">
-        <h1 data-aos="fade-up">Courses</h1>
+        <h1 data-aos="fade-up"><span>Courses</span></h1>
         <Courses/>
     </div>
 
