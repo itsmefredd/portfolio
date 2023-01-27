@@ -1,5 +1,4 @@
 import Timeline from "../sections/timeline.js"
-import Languages from "../sections/languages.js"
 import Courses from "../sections/courses.js"
 import LanguageTest from "./../sections/languageTest"
 import { Link } from "react-router-dom"
@@ -12,15 +11,15 @@ function lifeGeneral(props) {
   return (
 
 
-    <div className="App">
+    <div className="App" data-aos="fade-up">
       {/* Introduction */}
       <div className="life-section">
-        <h1 data-aos="fade-up"><span>About Me</span></h1>
+        <h1><span>About Me</span></h1>
         <div className="about-me-content">
-            <div data-aos="fade-up">
+            <div>
                 <p>Oh. You decided to stay and read more about me. Well, I should welcome you then. :3</p>
             </div>
-            <div data-aos="fade-up">
+            <div>
                 <p>I am a senior at&nbsp;
                     <a href="https://www.dal.ca/" target="_blank" rel="noreferrer"><font size="+2" className="text-scale1">Dalhousie University</font></a>&nbsp;studying&nbsp;
                     <a href="https://www.dal.ca/faculty/computerscience.html" target="_blank" rel="noreferrer"><font size="+2" className="text-scale2">Computer Science</font></a>.
@@ -33,18 +32,13 @@ function lifeGeneral(props) {
 
     {/* Timeline */}
     <div className="life-section">
-        <h1 data-aos="fade-up"><span>Timeline</span></h1>
+        <h1><span>Timeline</span></h1>
         <Timeline/>
     </div>
 
     {/* Languages */}
-    <div className="life-section">
-        <h1 data-aos="fade-up"><span>Tools</span></h1>
-        <Languages/>
-    </div>
-
     <div className="life-section" style={{minHeight: "80vh", height: "fit-contents"}} >
-        <h1 data-aos="fade-up"><span>Tools</span><span style={{fontSize: "12pt", textDecoration: "none"}}> Click on a tool to view projects with it</span></h1>
+        <h1><span>Tools</span><span style={{fontSize: "12pt", textDecoration: "none"}}> Click on a tool to view projects with it</span></h1>
         <LanguageTest theme={props.theme}/>
         <div className="tool-to-project ">
             <Link to="tools" className="detailed-timeline-link">View All Tools</Link>
@@ -54,7 +48,7 @@ function lifeGeneral(props) {
 
     {/* Dalhousie */}
     <div className="life-section last-section">
-        <h1 data-aos="fade-up"><span>Courses</span></h1>
+        <h1><span>Courses</span></h1>
         <Courses/>
     </div>
 

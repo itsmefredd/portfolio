@@ -15,7 +15,15 @@ import NotFound from "./nonfound-page/notfound.js"
 import Header from "./header.js";
 
 import './css/main.css'
-import './includes/navbar.css'
+import './css/navbar.css'
+import './css/life.css'
+import './css/timeline.css'
+import './css/language.css'
+import './css/courses.css'
+import './css/projects.css'
+import './css/room.css'
+import './css/contact.css'
+import './css/NotFound.css'
 
 const Home = () => {
 

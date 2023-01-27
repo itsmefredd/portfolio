@@ -1,0 +1,23 @@
+.programming-languages-grid {
+    border: #b9b0b0 0.5rem solid;
+    padding: 4rem 5rem;
+    border-radius: 10rem;
+
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;    
+    overflow-y: hidden;  
+}
+.programming-languages-grid>div>div>div>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.programming-languages-grid >div>div>div>ul>span {
+    text-decoration: underline;
+}

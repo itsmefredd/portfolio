@@ -1,0 +1,19 @@
+
+.timeline > h3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.timeline > tr > .year {
+    padding-right: 3rem;
+    padding-left: 2rem;
+    vertical-align: top;
+}
+.location-link {
+    text-decoration: none;
+}
+.vertical-timeline-element--work > * {
+    color: red;
+}
+.vertical-timeline-element--work > * > * {
+    color: black;
+}

@@ -11,7 +11,6 @@ function DetailedTimeline() {
         </div>
       
         <h1 className='detailed-timeline-heading'>Frederick's Life</h1>
-        <h2 className='detailed-timeline-heading-2'>Yes, very detail it is. </h2>
 
             <VerticalTimeline lineColor="#034f84">
 

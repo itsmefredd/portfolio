@@ -1,0 +1,113 @@
+
+.life {
+    min-height: 87vh;
+    width: 70vw;
+    padding-left: 14vw;
+    padding-right: 14vw;
+}
+.main-life {
+    padding-top: 5vh;
+}
+
+.life-section {
+    padding-top: 5vh;
+}
+
+.life-section > h1 > span {
+    text-decoration: underline;
+}
+.life-section > div {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+.about-me-content {
+    padding-top: 3vh;
+}
+
+.text-scale1 {
+    animation-name: text-alt;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1s;
+}
+.text-scale2 {
+    animation-name: text-alt;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+.text-scale3 {
+    animation-name: text-alt;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 3s;
+}
+.text-scale4 {
+    animation-name: text-alt;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 4s;
+}
+a {
+    text-decoration: none;
+}
+.text-scale1 {
+    animation-name: text-alt-dark;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1s;
+}
+.text-scale2 {
+animation-name: text-alt-dark;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+.text-scale3 {
+    animation-name: text-alt-dark;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 3s;
+}
+.text-scale4 {
+    animation-name: text-alt-dark;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 4s;
+}
+.life-tools{
+    display: flex;
+    justify-content: center;
+}
+.life-tools:nth-child(2){
+    height: 70vh;
+}
+.life-tools > *{
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.tools-specific{
+    width: 80%;
+    margin-top: 2rem;
+}
+.tools-specific > * {
+    margin-bottom: 1rem;
+}
+.tools-specific:last-child{
+    margin-top: 3rem;
+}
+
+.tool-to-project{
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+}

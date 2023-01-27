@@ -1,0 +1,15 @@
+
+.NotFound {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+.NotFound > *{
+    margin-top: 1rem;
+    text-align: center;
+}
+.not-found{
+    border: green 5px solid;
+    border-radius: 1rem;
+    height: 20rem;
+    width: auto;
+}
