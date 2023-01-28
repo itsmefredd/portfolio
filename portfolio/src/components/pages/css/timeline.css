@@ -7,6 +7,7 @@
     padding-right: 3rem;
     padding-left: 2rem;
     vertical-align: top;
+    /* border: red solid 1px; */
 }
 .location-link {
     text-decoration: none;
@@ -16,4 +17,8 @@
 }
 .vertical-timeline-element--work > * > * {
     color: black;
+}
+
+.timeline > tr > td {
+    margin-bottom: 2rem;
 }

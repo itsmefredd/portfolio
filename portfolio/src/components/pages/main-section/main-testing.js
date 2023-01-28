@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import FrederickPhoto from "../../img/main/FrederickPhoto.jpeg"
 import FrederickPhoto2 from "../../img/main/FrederickPhoto2.jpg"
+import FrederickPhoto4 from "../../img/main/FrederickPhoto4.jpeg"
 
 import "../includes/scroll.js"
 
@@ -17,7 +18,7 @@ function Main(props){
             <div className="main-introduction">
                 <div className="main-introduction-left">
                     <div className="main-introduction-photo">
-                        <img className="main-introduction-photo-item" src={ FrederickPhoto } alt="Frederick Go"></img>
+                        <img className="main-introduction-photo-item" src={ FrederickPhoto4 } alt="Frederick Go"></img>
                     </div>
                     <div className="main-introduction-photo-bg"></div>
                 </div>
@@ -54,7 +55,7 @@ function Main(props){
                     </div>
                 </div>
                 <div className="main-introduction-addition-photo">
-                    <img className="main-introduction-addition-photo-item" src={ FrederickPhoto2 } alt="Frederick Go"></img>
+                    <img className="main-introduction-addition-photo-item" src={ FrederickPhoto } alt="Frederick Go"></img>
                 </div>
             </div>
 

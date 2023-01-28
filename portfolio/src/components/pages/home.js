@@ -6,6 +6,7 @@ import { lightTheme, darkTheme, GlobalStyle } from "../../theme.js"
 import Scroll from  "./includes/scroll.js"
 import Footer from "./includes/footer.js";
 import MainTesting from "./main-section/main-testing.js";
+import Main from "./main-section/main.js";
 import Life from "./my-life-section/life.js";
 import Room from "./my-room-section/room.js";
 import Contact from "./contact-section/contact.js"
@@ -24,6 +25,7 @@ import './css/projects.css'
 import './css/room.css'
 import './css/contact.css'
 import './css/NotFound.css'
+import './css/trash.css'
 
 const Home = () => {
 
