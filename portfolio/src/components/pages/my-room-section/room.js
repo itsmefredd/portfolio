@@ -23,19 +23,19 @@ function Room(props){
             <div className="room-section">
                 <h2 className="room-section-one" data-aos="fade-up" data-aos-delay="400">Music</h2>
                 <div className="room-music" data-aos="fade-up" data-aos-delay="600" style={{width: "90%", paddingLeft: "5%", paddingTop: "2rem"}}>
-                    <div data-aos="fade-up">
-                        I am a fan of music, especially instrumental. 
-                    </div>
                     <div data-aos="fade-up" data-aos-delay="800">
-                    I play the clarinet, the bass clarinet, the soprano saxophone, and the tenor saxophone. 
-                    Clarinet was the first woodwind instrument I started with, and I loved it; hence, I still play it after 9 years. 
-                    During the years, soprano and tenor saxophones were added to my list, the Bb family! 
-                    I first tried the tenor saxophone, and it was difference from the clarinet. 
-                    Since then, I kept playing and eventually started playing the soprano saxophone. 
-                    My time at Halifax Grammar School, a huge part of it was the bands. 
-                    I was a member of Senior Band, Wind Emsemble, Senior Jazz Band, and a few more. 
-                    In my last few years there, I was a member of pit band for school musicals. 
-                    That is when I played all 4 woodwinds, which was not easy. 
+                    As a music enthusiast, I have a particular fondness for instrumental compositions. 
+                    I am proficient in playing several woodwind instruments, including the clarinet, 
+                    bass clarinet, soprano saxophone, and tenor saxophone. The clarinet was my first 
+                    woodwind instrument, which I started playing 9 years ago and have continued to do so. 
+                    Over the years, I have expanded my repertoire to include the Bb family of 
+                    instruments - the soprano and tenor saxophones. My introduction to the tenor 
+                    saxophone marked a departure from the clarinet, and since then, I have developed a 
+                    love for playing both the soprano and tenor saxophones. During my time at 
+                    Halifax Grammar School, I was an active member of several bands, including the 
+                    Senior Band, Wind Ensemble, Senior Jazz Band, and others. In my last few years, 
+                    I also performed in the pit band for the school musicals, which involved playing 
+                    all four of my woodwind instruments, presenting a significant challenge.
                     </div>
                     <dic className="music-images" data-aos="fade-up" data-aos-delay="1000">
                         <img src={ Band1 } className="band-image band3" alt="band1"></img>
@@ -43,11 +43,12 @@ function Room(props){
                         <img src={ Band3 } className="band-image band1" alt="band3"></img>
                     </dic>
                     <div data-aos="fade-up">
-                    Other than those, I play the ukulele and the guitar. 
-                    I got my hands on a ukulele back when I was in 8th grade. 
-                    Since then, I have been playing for years and picked up a guitar a few years ago. 
-                    I used to play the piano and the violin back when I was very little in Korea and I remember almost nothing, 
-                    though I would be very happy to re-learn! 
+                    In addition to the woodwind instruments, I am also skilled in playing the ukulele and guitar. 
+                    I obtained my first ukulele during my 8th-grade year, and since then, I have cultivated my 
+                    playing skills over the years. A few years ago, I added the guitar to my list of instruments. 
+                    During my childhood in Korea, I received early exposure to music by playing the piano and violin, 
+                    but unfortunately, I have limited recall of these experiences. However, I would be eager to 
+                    reacquaint myself with these instruments in the future.
                     </div>
                 </div>
             </div>
@@ -56,10 +57,10 @@ function Room(props){
                 <h2 className="room-section-one" data-aos="fade-up">Tennis</h2>
                 <div className="tennis-section">
                     <div className="tennis-text" data-aos="fade-up">
-                        I first started playing tennis back when I was in 7th grade. 
-                        I generally love playing sports that requires a racket: such as badminton and squash. 
-                        The photo on the right is me and my tennis team members from Halifax Grammar School for 
-                        provincial competitions. 
+                    My initiation into the sport of tennis dates back to my 7th-grade year. 
+                    I have a fondness for sports that involve a racket, including badminton and squash. 
+                    The photograph on the right features myself and my tennis team members from 
+                    Halifax Grammar School, who participated in provincial competitions.
                     </div>
                     <div className="tennis-image" data-aos="fade-up">
                         <img src={ Tennis } className="tennis-image-img" alt="tennis-team"></img>
